@@ -5,5 +5,14 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface Configschema {
+export interface SetupInformation {
+	id: string;
+	text: string;
+	[k: string]: unknown;
 }
+
+export type SetupInformationArray = {
+	id: string;
+	text: string;
+	[k: string]: unknown;
+}[];

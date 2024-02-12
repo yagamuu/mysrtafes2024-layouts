@@ -3,9 +3,9 @@
 // This must go first so we can use module aliases!
 /* eslint-disable import/first */
 // eslint-disable-next-line @typescript-eslint/no-var-requires
-require('module-alias').addAlias('@nodecg-vue-ts-template', require('path').join(__dirname, '.'));
+require('module-alias').addAlias('@mysrtafes2024-layouts', require('path').join(__dirname, '.'));
 
-import { Configschema } from '@nodecg-vue-ts-template/types/schemas';
+import { Configschema } from '@mysrtafes2024-layouts/types/schemas';
 import type NodeCG from '@nodecg/types';
 import { set } from './util/nodecg';
 
@@ -15,5 +15,7 @@ export = (nodecg: NodeCG.ServerAPI<Configschema>): void => {
    * things to be loaded *after* the NodeCG context is set.
    */
   set(nodecg);
-  require('./example');
+  require('./displaySound');
+  require('./information');
+  require('./startSoon');
 };

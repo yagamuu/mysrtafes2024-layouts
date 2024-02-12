@@ -5,5 +5,7 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface Configschema {
-}
+export type Checklist = {
+	name: string;
+	complete: boolean;
+}[];

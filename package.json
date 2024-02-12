@@ -1,14 +1,14 @@
 {
-  "name": "nodecg-vue-ts-template",
+  "name": "mysrtafes2024-layouts",
   "version": "1.0.0",
-  "description": "Template for NodeCG bundles that use Vue.js and TypeScript.",
-  "homepage": "https://github.com/zoton2/nodecg-vue-ts-template#readme",
+  "description": "The on-stream layouts for Mystery Dungeon RTA FES 5",
+  "homepage": "https://github.com/zoton2/mysrtafes2024-layouts#readme",
   "bugs": {
-    "url": "https://github.com/yagamuu/nodecg-vue-ts-template/issues"
+    "url": "https://github.com/yagamuu/mysrtafes2024-layouts/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yagamuu/nodecg-vue-ts-template.git"
+    "url": "git+https://github.com/yagamuu/mysrtafes2024-layouts.git"
   },
   "license": "MIT",
   "author": "yagamuu",
@@ -72,9 +72,25 @@
     },
     "dashboardPanels": [
       {
-        "name": "example",
-        "title": "Example",
-        "file": "example.html"
+        "name": "setupInformation",
+        "title": "Setup Information",
+        "file": "setupInformation.html",
+        "width": 3,
+        "workspace": "MysRTAFes Settings"
+      },
+      {
+        "name": "displaySound",
+        "title": "Display Sound",
+        "file": "displaySound.html",
+        "width": 3,
+        "workspace": "MysRTAFes Settings"
+      },
+      {
+        "name": "startSoon",
+        "title": "Start Soon",
+        "file": "startSoon.html",
+        "width": 3,
+        "workspace": "MysRTAFes Settings"
       }
     ],
     "graphics": [

@@ -5,5 +5,8 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface Configschema {
-}
+export type SpotifyPlayingTrack = null | {
+	name: string;
+	artists: string[];
+	albumName: string;
+};

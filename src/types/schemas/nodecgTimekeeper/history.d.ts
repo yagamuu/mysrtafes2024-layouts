@@ -5,5 +5,10 @@
  * and run json-schema-to-typescript to regenerate this file.
  */
 
-export interface Configschema {
-}
+export type History = {
+	time: {
+		display: string;
+		rawInSecond: number;
+	};
+	finishedAt: number;
+}[];
