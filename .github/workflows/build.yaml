@@ -1,0 +1,92 @@
+name: Build
+
+on:
+  push:
+    branches: [ master ]
+
+  workflow_dispatch:
+    inputs:
+      base_branch:
+        description: 'Name of branch to base build on'
+        type: string
+        required: false
+        default: 'master'
+      build_branch:
+        description: 'Name of branch to commit build to'
+        type: string
+        required: false
+        default: 'build'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    # リポジトリからbaseブランチとビルド用ブランチをチェックアウト
+    - name: Checkout this repository base branch
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ inputs.base_branch || 'master' }}
+    - name: Checkout this repository build branch
+      uses: actions/checkout@v3
+      with:
+        ref: ${{ inputs.build_branch || 'build' }}
+
+    # Git configをGitHub ActionsのBotアカウントに設定
+    - name: Set local git config user details
+      run: |
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --local user.name "github-actions[bot]"
+
+    # 再度チェックアウトし、ビルド用ブランチにベースブランチをマージ(ビルド用ブランチが無いと失敗する可能性があるが続行)
+    - name: (Re)checkout both branches and merge main into build
+      continue-on-error: true
+      run: |
+        git checkout ${{ inputs.base_branch || 'master' }}
+        git checkout ${{ inputs.build_branch || 'build' }}
+        git merge ${{ inputs.base_branch || 'master' }}
+
+    # Node.jsをセットアップ
+    - name: Node.js setup
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+
+    # NPMのキャッシュ用設定をセット
+    - name: Set NPM cache
+      uses: actions/cache@v3
+      with:
+        path: ~/.npm
+        key: ${{ runner.os }}-node-${{ hashFiles('**/package-lock.json') }}
+        restore-keys: |
+          ${{ runner.os }}-node-
+
+    # NPMを最新バージョンにアップデート
+    - name: Update NPM installation
+      run: npm install -g npm@latest
+
+    # 依存パッケージをインストール
+    - name: Install NPM dependencies
+      run: npm ci
+
+    # ビルドを実施
+    - name: Build
+      run: |
+        npm run clean
+        npm run build
+
+    # ビルドしたファイルをコミットする
+    # 変更されたファイルがない場合失敗する場合があるが続行
+    - name: Commit built files
+      id: commit
+      continue-on-error: true
+      run: |
+        git add -f dashboard extension graphics
+        git commit -m "Built files" -a
+
+    # ビルド用ブランチにプッシュ
+    - name: Push built files to build branch
+      uses: ad-m/github-push-action@master
+      with:
+        github_token: ${{ secrets['GITHUB_TOKEN'] }}
+        branch: ${{ inputs.build_branch || 'build' }}

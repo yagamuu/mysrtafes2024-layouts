@@ -1,0 +1,29 @@
+services:
+  nodecg:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: root
+    command: sh -c "npm i --omit=dev && node --enable-source-maps ../.."
+    working_dir: /opt/nodecg/bundles/nodecg-vue-ts-template
+    init: true
+    ports:
+      - 9090:9090
+    volumes:
+      - nodecg_db:/opt/nodecg/db
+      - nodecg_assets:/opt/nodecg/assets
+      - node_modules:/opt/nodecg/bundles/nodecg-vue-ts-template/node_modules
+      - ./cfg:/opt/nodecg/cfg:ro
+      - ./package.json:/opt/nodecg/bundles/nodecg-vue-ts-template/package.json:ro
+      - ./package-lock.json:/opt/nodecg/bundles/nodecg-vue-ts-template/package-lock.json
+      - ./dashboard:/opt/nodecg/bundles/nodecg-vue-ts-template/dashboard:ro
+      - ./extension:/opt/nodecg/bundles/nodecg-vue-ts-template/extension:ro
+      - ./graphics:/opt/nodecg/bundles/nodecg-vue-ts-template/graphics:ro
+      - ./schemas:/opt/nodecg/bundles/nodecg-vue-ts-template/schemas:ro
+      - ./src:/opt/nodecg/bundles/nodecg-vue-ts-template/src:ro
+      - ./shared:/opt/nodecg/bundles/nodecg-vue-ts-template/shared:ro
+
+volumes:
+  nodecg_db:
+  nodecg_assets:
+  node_modules:
