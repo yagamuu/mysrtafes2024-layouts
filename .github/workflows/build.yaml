@@ -22,15 +22,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    # リポジトリからbaseブランチとビルド用ブランチをチェックアウト
-    - name: Checkout this repository base branch
+    # リポジトリから全データをチェックアウト
+    - name: Checkout this repository
       uses: actions/checkout@v3
       with:
+        token: ${{ secrets['GITHUB_TOKEN'] }}
         ref: ${{ inputs.base_branch || 'master' }}
-    - name: Checkout this repository build branch
-      uses: actions/checkout@v3
-      with:
-        ref: ${{ inputs.build_branch || 'build' }}
+        fetch-depth: 0
 
     # Git configをGitHub ActionsのBotアカウントに設定
     - name: Set local git config user details
