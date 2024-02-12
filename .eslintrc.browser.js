@@ -19,7 +19,7 @@ module.exports = {
     '@typescript-eslint',
   ],
   extends: [
-    'plugin:vue/essential',
+    'plugin:vue/vue3-essential',
     'airbnb-base',
     'airbnb-typescript/base',
     'eslint:recommended',
