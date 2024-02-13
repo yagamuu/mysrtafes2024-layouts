@@ -1,0 +1,150 @@
+{
+  "_option-sizes-d822f806.js": {
+    "file": "assets/option-sizes-d822f806.js",
+    "imports": [
+      "_timer-c0e757f4.js"
+    ]
+  },
+  "_setupInformation-83574d07.js": {
+    "file": "assets/setupInformation-83574d07.js",
+    "imports": [
+      "_timer-c0e757f4.js"
+    ]
+  },
+  "_timer-c0e757f4.js": {
+    "file": "assets/timer-c0e757f4.js"
+  },
+  "_use-form-e8a8df08.js": {
+    "assets": [
+      "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ-4a4dbc62.woff2",
+      "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNa-fd84f88b.woff",
+      "assets/materialdesignicons-webfont-633d596f.woff2",
+      "assets/materialdesignicons-webfont-7f3afe9b.woff",
+      "assets/KFOkCnqEu92Fr1MmgVxIIzQ-34e9582c.woff",
+      "assets/KFOlCnqEu92Fr1MmSU5fBBc--bf14c7d7.woff",
+      "assets/KFOmCnqEu92Fr1Mu4mxM-f2abf7fb.woff",
+      "assets/KFOlCnqEu92Fr1MmEU9fBBc--9ce7f3ac.woff",
+      "assets/KFOlCnqEu92Fr1MmWUlfBBc--e0fd57c0.woff",
+      "assets/KFOlCnqEu92Fr1MmYUtfBBc--f6537e32.woff"
+    ],
+    "css": [
+      "assets/use-form-91a247d2.css"
+    ],
+    "file": "assets/use-form-e8a8df08.js",
+    "imports": [
+      "_timer-c0e757f4.js"
+    ]
+  },
+  "node_modules/@quasar/extras/material-icons/web-font/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff": {
+    "file": "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNa-fd84f88b.woff",
+    "src": "node_modules/@quasar/extras/material-icons/web-font/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff"
+  },
+  "node_modules/@quasar/extras/material-icons/web-font/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2": {
+    "file": "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ-4a4dbc62.woff2",
+    "src": "node_modules/@quasar/extras/material-icons/web-font/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ.woff2"
+  },
+  "node_modules/@quasar/extras/mdi-v6/materialdesignicons-webfont.woff": {
+    "file": "assets/materialdesignicons-webfont-7f3afe9b.woff",
+    "src": "node_modules/@quasar/extras/mdi-v6/materialdesignicons-webfont.woff"
+  },
+  "node_modules/@quasar/extras/mdi-v6/materialdesignicons-webfont.woff2": {
+    "file": "assets/materialdesignicons-webfont-633d596f.woff2",
+    "src": "node_modules/@quasar/extras/mdi-v6/materialdesignicons-webfont.woff2"
+  },
+  "node_modules/@quasar/extras/roboto-font/web-font/KFOkCnqEu92Fr1MmgVxIIzQ.woff": {
+    "file": "assets/KFOkCnqEu92Fr1MmgVxIIzQ-34e9582c.woff",
+    "src": "node_modules/@quasar/extras/roboto-font/web-font/KFOkCnqEu92Fr1MmgVxIIzQ.woff"
+  },
+  "node_modules/@quasar/extras/roboto-font/web-font/KFOlCnqEu92Fr1MmEU9fBBc-.woff": {
+    "file": "assets/KFOlCnqEu92Fr1MmEU9fBBc--9ce7f3ac.woff",
+    "src": "node_modules/@quasar/extras/roboto-font/web-font/KFOlCnqEu92Fr1MmEU9fBBc-.woff"
+  },
+  "node_modules/@quasar/extras/roboto-font/web-font/KFOlCnqEu92Fr1MmSU5fBBc-.woff": {
+    "file": "assets/KFOlCnqEu92Fr1MmSU5fBBc--bf14c7d7.woff",
+    "src": "node_modules/@quasar/extras/roboto-font/web-font/KFOlCnqEu92Fr1MmSU5fBBc-.woff"
+  },
+  "node_modules/@quasar/extras/roboto-font/web-font/KFOlCnqEu92Fr1MmWUlfBBc-.woff": {
+    "file": "assets/KFOlCnqEu92Fr1MmWUlfBBc--e0fd57c0.woff",
+    "src": "node_modules/@quasar/extras/roboto-font/web-font/KFOlCnqEu92Fr1MmWUlfBBc-.woff"
+  },
+  "node_modules/@quasar/extras/roboto-font/web-font/KFOlCnqEu92Fr1MmYUtfBBc-.woff": {
+    "file": "assets/KFOlCnqEu92Fr1MmYUtfBBc--f6537e32.woff",
+    "src": "node_modules/@quasar/extras/roboto-font/web-font/KFOlCnqEu92Fr1MmYUtfBBc-.woff"
+  },
+  "node_modules/@quasar/extras/roboto-font/web-font/KFOmCnqEu92Fr1Mu4mxM.woff": {
+    "file": "assets/KFOmCnqEu92Fr1Mu4mxM-f2abf7fb.woff",
+    "src": "node_modules/@quasar/extras/roboto-font/web-font/KFOmCnqEu92Fr1Mu4mxM.woff"
+  },
+  "src/dashboard/displaySound.ts": {
+    "file": "assets/displaySound-40745d3f.js",
+    "imports": [
+      "_use-form-e8a8df08.js",
+      "_timer-c0e757f4.js",
+      "_option-sizes-d822f806.js"
+    ],
+    "isEntry": true,
+    "src": "src/dashboard/displaySound.ts"
+  },
+  "src/dashboard/setupInformation.ts": {
+    "file": "assets/setupInformation-b1c16fa8.js",
+    "imports": [
+      "_use-form-e8a8df08.js",
+      "_timer-c0e757f4.js",
+      "_setupInformation-83574d07.js"
+    ],
+    "isEntry": true,
+    "src": "src/dashboard/setupInformation.ts"
+  },
+  "src/dashboard/startSoon.ts": {
+    "file": "assets/startSoon-398b536f.js",
+    "imports": [
+      "_use-form-e8a8df08.js",
+      "_timer-c0e757f4.js",
+      "_option-sizes-d822f806.js"
+    ],
+    "isEntry": true,
+    "src": "src/dashboard/startSoon.ts"
+  },
+  "src/graphics/images/common/background.png": {
+    "file": "assets/background-c6bc6c1e.png",
+    "src": "src/graphics/images/common/background.png"
+  },
+  "src/graphics/images/common/fushi_logo.png": {
+    "file": "assets/fushi_logo-fc714fe9.png",
+    "src": "src/graphics/images/common/fushi_logo.png"
+  },
+  "src/graphics/images/setup/setup_first.png": {
+    "file": "assets/setup_first-20a7bf4c.png",
+    "src": "src/graphics/images/setup/setup_first.png"
+  },
+  "src/graphics/images/setup/setup_second.png": {
+    "file": "assets/setup_second-498d440e.png",
+    "src": "src/graphics/images/setup/setup_second.png"
+  },
+  "src/graphics/setup.css": {
+    "file": "assets/setup-037441c1.css",
+    "src": "src/graphics/setup.css"
+  },
+  "src/graphics/setup.ts": {
+    "assets": [
+      "assets/background-c6bc6c1e.png",
+      "assets/fushi_logo-fc714fe9.png",
+      "assets/setup_first-20a7bf4c.png",
+      "assets/setup_second-498d440e.png"
+    ],
+    "css": [
+      "assets/setup-037441c1.css"
+    ],
+    "file": "assets/setup-7e2e6b8a.js",
+    "imports": [
+      "_timer-c0e757f4.js",
+      "_setupInformation-83574d07.js"
+    ],
+    "isEntry": true,
+    "src": "src/graphics/setup.ts"
+  },
+  "use-form.css": {
+    "file": "assets/use-form-91a247d2.css",
+    "src": "use-form.css"
+  }
+}
