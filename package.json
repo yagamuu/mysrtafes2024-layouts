@@ -98,6 +98,27 @@
         "file": "setup.html",
         "width": 1920,
         "height": 1080
+      },
+      {
+        "file": "singleHd.html",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "file": "singleDs.html",
+        "width": 1920,
+        "height": 1080
+      }
+    ],
+    "assetCategories": [
+      {
+        "name": "layoutBg",
+        "title": "Layout Background Image",
+        "allowedTypes": [
+          "jpg",
+          "jpeg",
+          "png"
+        ]
       }
     ]
   }
