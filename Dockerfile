@@ -3,7 +3,14 @@ FROM ghcr.io/nodecg/nodecg:latest
 USER root
 WORKDIR /opt/nodecg
 
-RUN nodecg install yagamuu/nodecg-speedcontrol --dev
+# nodecg-spotify-widgetのインストールでコケるため
+# 直接コンテナ内に入ってディレクトリ配下でnpm iしないとダメかも
+RUN apt-get update && \
+  apt-get install -y make gcc g++ python3
+
+RUN nodecg install yagamuu/nodecg-speedcontrol --dev && \
+  nodecg install yagamuu/nodecg-spotify-widget && \
+  nodecg install cma2819/nodecg-timekeeper
 
 WORKDIR /opt/nodecg/bundles/nodecg-speedcontrol
 RUN npm run build
