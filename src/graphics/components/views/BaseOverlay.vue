@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue';
+import { useAssets } from '@mysrtafes2024-layouts/composable';
 import TheFooter from './TheFooter.vue';
 
 interface Props {
@@ -9,10 +10,14 @@ interface Props {
 
 const props = defineProps<Props>();
 
+const { layoutBgUrl } = useAssets();
+
 const style = computed(() => {
   const clip = props.clipPath ? `polygon(${props.clipPath})` : '';
 
-  const backgroundImage = props.backgroundUrl ? `url(${props.backgroundUrl})` : undefined;
+  const url = props.backgroundUrl ? props.backgroundUrl : layoutBgUrl.value;
+
+  const backgroundImage = `url(${url})`;
 
   return {
     clipPath: clip,

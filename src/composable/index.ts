@@ -1,3 +1,4 @@
+export * from './assets';
 export * from './runData';
 export * from './displaySound';
 export * from './timekeeping';
