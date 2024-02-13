@@ -1,5 +1,5 @@
 import { computed } from 'vue'
-import { RunDataActiveRun, RunDataActiveRunSurrounding, RunDataArray } from '../types/schemas/speedcontrol';
+import { RunDataActiveRun, RunDataActiveRunSurrounding, RunDataArray, RunData } from '../types/schemas/speedcontrol';
 import { useReplicant } from 'nodecg-vue-composable';
 import * as util from './util/format';
 
@@ -34,12 +34,16 @@ export function useRunData() {
     return runDataArray?.data?.slice(index, index + 3);
   });
 
+  const upnextRun = computed(() => upcomingRuns?.value?.[0]);
+
+  const ondeckRuns = computed(() => upcomingRuns.value?.slice(1));
+
   const upcomingStartIn = computed(() => {
     if (!upcomingRuns.value || !upcomingRuns.value[1]) {
       return [];
     }
 
-    const startInArray = [0];
+    const startInArray = [] as number[];
     const secondRunStartIn = (upcomingRuns.value[0].estimateS || 0)
       + (upcomingRuns.value[1].setupTimeS || 0);
     startInArray.push(secondRunStartIn);
@@ -70,6 +74,8 @@ export function useRunData() {
     runDataActiveRun,
     players,
     upcomingRuns,
+    upnextRun,
+    ondeckRuns,
     upcomingStartIn,
     runTitle,
     runCategory,

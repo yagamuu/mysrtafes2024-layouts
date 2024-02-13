@@ -1,0 +1,223 @@
+body {
+  background-image: url("./../images/common/background.png");
+  /* 上記いらんかも */
+}
+
+#container {
+  width: 1920px;
+  height: 1080px;
+  border: 16px solid rgba(25, 25, 25, 1);
+  border-bottom-width: 50px;
+}
+
+.logo {
+  position: absolute;
+  width: 237px;
+  height: 237px;
+  left: 77px;
+  top: 80px;
+  background: url(./../images/common/fushi_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.setup_box_1 {
+  position: absolute;
+  left: 506px;
+  top: 123px;
+  width: 1249px;
+  height: 332px;
+  background: url(./../images/setup/setup_first.png);
+  background-size: contain;
+}
+
+.setup_box_2 {
+  position: absolute;
+  left: 935px;
+  top: 449px;
+  width: 820px;
+  height: 269px;
+  background: url(./../images/setup/setup_second.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.setup_box_3 {
+  position: absolute;
+  left: 935px;
+  top: 644px;
+  width: 820px;
+  height: 269px;
+  background: url(./../images/setup/setup_second.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.setup_box_1 .title {
+  font-size: 48px;
+  line-height: 60px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-family: "M PLUS 1", sans-serif;
+  width: 611px;
+  height: 180px;
+  display: block;
+  position: absolute;
+  left: 40px;
+  top: 30px;
+}
+
+.setup_box_1 .runner {
+  font-size: 26px;
+  line-height: 38px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-family: "M PLUS 1", sans-serif;
+  width: 611px;
+  height: 180px;
+  display: block;
+  position: absolute;
+  left: 40px;
+  top: 220px;
+}
+
+.setup_box_1 .detail {
+  font-size: 24px;
+  line-height: 35px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-family: "M PLUS 1", sans-serif;
+  width: 541px;
+  height: 280px;
+  display: block;
+  position: absolute;
+  left: 680px;
+  top: 30px;
+}
+
+.setup_box_2 .title,
+.setup_box_3 .title {
+  font-size: 30px;
+  line-height: 37px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-family: "M PLUS 1", sans-serif;
+  width: 572px;
+  height: 78px;
+  display: block;
+  position: absolute;
+  left: 222px;
+  top: 65px;
+}
+
+.setup_box_2 .runner,
+.setup_box_3 .runner {
+  font-size: 22px;
+  line-height: 29px;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 700;
+  font-family: "M PLUS 1", sans-serif;
+  width: 572px;
+  height: 58px;
+  display: block;
+  position: absolute;
+  left: 222px;
+  top: 145px;
+}
+
+.setup_box_2 .next_time_box,
+.setup_box_3 .next_time_box {
+  width: 200px;
+  height: 140px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 17px;
+  top: 0;
+  bottom: 10px;
+  margin: auto;
+}
+
+.setup_box_2 .next_time,
+.setup_box_3 .next_time {
+  display: inline-block;
+  height: 55px;
+  color: rgba(73, 64, 33, 1);
+  font-weight: 900;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 24px;
+  line-height: 35px;
+  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
+    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
+}
+
+.setup_box_2 .next_time span,
+.setup_box_3 .next_time span {
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 38px;
+  line-height: 55px;
+  text-shadow: 3px 3px 0 #fff, -3px -3px 0 #fff, -3px 3px 0 #fff,
+    3px -3px 0 #fff, 0px 3px 0 #fff, 0-3px 0 #fff, -3px 0 0 #fff, 3px 0 0 #fff;
+}
+
+.footer {
+  position: absolute;
+  width: 1920px;
+  height: 50px;
+  padding: 0 16px;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.footer span {
+  margin-left: 20px;
+}
+
+.footer .right {
+  display: flex;
+  align-items: center;
+}
+
+.music {
+  background-color: rgba(27, 27, 27, 0.8);
+  color: rgba(217, 217, 217, 1);
+  font-size: 23px;
+  font-weight: 900;
+  font-family: "Inconsolata", monospace;
+  padding: 8px 20px 8px 56px;
+  height: 52px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 16px;
+  bottom: 80px;
+}
+
+.music .icon {
+  background-image: url("./../images/setup/bgm_icon.png");
+  background-size: contain;
+  width: 65px;
+  height: 65px;
+  position: absolute;
+  left: -20px;
+}
+
+.x_icon {
+  width: 28px;
+  height: 28px;
+  background-image: url("./../images/common/x_icon.png");
+  background-size: contain;
+  margin-right: 2px;
+}
