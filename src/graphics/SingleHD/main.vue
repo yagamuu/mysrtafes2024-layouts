@@ -23,7 +23,8 @@ useHead({ title: 'SingleHD' });
 
 <template>
   <BaseOverlay :clip-path="clipPath">
-    <div class="cloud"></div>
+    <div class="cloud"/>
+    <div class="logo"/>
     <div class="video_box"></div>
     <div class="kaisetsu_box"></div>
     <div class="information_box">
