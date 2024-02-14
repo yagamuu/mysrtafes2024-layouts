@@ -30,7 +30,6 @@ const style = computed(() => {
 <template>
   <div>
     <div id="container" :style="style">
-      <div class="logo"/>
       <slot />
       <TheFooter />
     </div>
