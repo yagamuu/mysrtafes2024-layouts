@@ -18,4 +18,5 @@ export = (nodecg: NodeCG.ServerAPI<Configschema>): void => {
   require('./displaySound');
   require('./information');
   require('./startSoon');
+  require('./timekeeper');
 };
