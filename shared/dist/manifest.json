@@ -1,32 +1,38 @@
 {
-  "_BaseOverlay.vue_vue_type_script_setup_true_lang-5577a75a.js": {
-    "file": "assets/BaseOverlay.vue_vue_type_script_setup_true_lang-5577a75a.js",
+  "_BaseOverlay.vue_vue_type_script_setup_true_lang-4448a2d3.js": {
+    "file": "assets/BaseOverlay.vue_vue_type_script_setup_true_lang-4448a2d3.js",
     "imports": [
-      "_timer-ed193395.js"
+      "_timer-f0fd1a4e.js"
     ]
   },
-  "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-79550e71.js": {
-    "file": "assets/TimerAndEstimate.vue_vue_type_script_setup_true_lang-79550e71.js",
+  "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-d7d73f7f.js": {
+    "file": "assets/TimerAndEstimate.vue_vue_type_script_setup_true_lang-d7d73f7f.js",
     "imports": [
-      "_timer-ed193395.js"
+      "_timer-f0fd1a4e.js"
     ]
   },
-  "_option-sizes-38ba323f.js": {
-    "file": "assets/option-sizes-38ba323f.js",
+  "_displaySound-3bafce42.js": {
+    "file": "assets/displaySound-3bafce42.js",
     "imports": [
-      "_timer-ed193395.js"
+      "_timer-f0fd1a4e.js"
     ]
   },
-  "_setupInformation-33af85b6.js": {
-    "file": "assets/setupInformation-33af85b6.js",
+  "_option-sizes-54d44432.js": {
+    "file": "assets/option-sizes-54d44432.js",
     "imports": [
-      "_timer-ed193395.js"
+      "_timer-f0fd1a4e.js"
     ]
   },
-  "_timer-ed193395.js": {
-    "file": "assets/timer-ed193395.js"
+  "_setupInformation-627cee18.js": {
+    "file": "assets/setupInformation-627cee18.js",
+    "imports": [
+      "_timer-f0fd1a4e.js"
+    ]
   },
-  "_use-form-514e8835.js": {
+  "_timer-f0fd1a4e.js": {
+    "file": "assets/timer-f0fd1a4e.js"
+  },
+  "_use-form-c4eb32d4.js": {
     "assets": [
       "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNcIhQ8tQ-4a4dbc62.woff2",
       "assets/flUhRq6tzZclQEJ-Vdg-IuiaDsNa-fd84f88b.woff",
@@ -42,9 +48,9 @@
     "css": [
       "assets/use-form-91a247d2.css"
     ],
-    "file": "assets/use-form-514e8835.js",
+    "file": "assets/use-form-c4eb32d4.js",
     "imports": [
-      "_timer-ed193395.js"
+      "_timer-f0fd1a4e.js"
     ]
   },
   "node_modules/@quasar/extras/material-icons/web-font/flUhRq6tzZclQEJ-Vdg-IuiaDsNa.woff": {
@@ -88,34 +94,61 @@
     "src": "node_modules/@quasar/extras/roboto-font/web-font/KFOmCnqEu92Fr1Mu4mxM.woff"
   },
   "src/dashboard/displaySound.ts": {
-    "file": "assets/displaySound-bd4a4736.js",
+    "file": "assets/displaySound-af6ea5f0.js",
     "imports": [
-      "_use-form-514e8835.js",
-      "_timer-ed193395.js",
-      "_option-sizes-38ba323f.js"
+      "_use-form-c4eb32d4.js",
+      "_timer-f0fd1a4e.js",
+      "_option-sizes-54d44432.js",
+      "_displaySound-3bafce42.js"
     ],
     "isEntry": true,
     "src": "src/dashboard/displaySound.ts"
   },
   "src/dashboard/setupInformation.ts": {
-    "file": "assets/setupInformation-399fd46d.js",
+    "file": "assets/setupInformation-afc97e01.js",
     "imports": [
-      "_use-form-514e8835.js",
-      "_timer-ed193395.js",
-      "_setupInformation-33af85b6.js"
+      "_use-form-c4eb32d4.js",
+      "_timer-f0fd1a4e.js",
+      "_setupInformation-627cee18.js"
     ],
     "isEntry": true,
     "src": "src/dashboard/setupInformation.ts"
   },
   "src/dashboard/startSoon.ts": {
-    "file": "assets/startSoon-f635cba8.js",
+    "file": "assets/startSoon-4968a341.js",
     "imports": [
-      "_use-form-514e8835.js",
-      "_timer-ed193395.js",
-      "_option-sizes-38ba323f.js"
+      "_use-form-c4eb32d4.js",
+      "_timer-f0fd1a4e.js",
+      "_option-sizes-54d44432.js"
     ],
     "isEntry": true,
     "src": "src/dashboard/startSoon.ts"
+  },
+  "src/graphics/doubleHd.css": {
+    "file": "assets/doubleHd-c6b49ca9.css",
+    "src": "src/graphics/doubleHd.css"
+  },
+  "src/graphics/doubleHd.ts": {
+    "assets": [
+      "assets/cloud-15dc1a47.png",
+      "assets/fushi_logo2-ac0ab78f.png",
+      "assets/video-e295fdb7.png",
+      "assets/kaisetsu-88655cdc.png",
+      "assets/run_2_header-d008adf6.png",
+      "assets/run_2-c1e04fba.png"
+    ],
+    "css": [
+      "assets/doubleHd-c6b49ca9.css"
+    ],
+    "file": "assets/doubleHd-b9aced0c.js",
+    "imports": [
+      "_timer-f0fd1a4e.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-d7d73f7f.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-4448a2d3.js",
+      "_displaySound-3bafce42.js"
+    ],
+    "isEntry": true,
+    "src": "src/graphics/doubleHd.ts"
   },
   "src/graphics/images/common/cloud.png": {
     "file": "assets/cloud-ae69abe4.png",
@@ -149,6 +182,18 @@
     "file": "assets/video-c1f4d816.png",
     "src": "src/graphics/images/run_1_ds/video.png"
   },
+  "src/graphics/images/run_2/cloud.png": {
+    "file": "assets/cloud-15dc1a47.png",
+    "src": "src/graphics/images/run_2/cloud.png"
+  },
+  "src/graphics/images/run_2/run_2.png": {
+    "file": "assets/run_2-c1e04fba.png",
+    "src": "src/graphics/images/run_2/run_2.png"
+  },
+  "src/graphics/images/run_2/run_2_header.png": {
+    "file": "assets/run_2_header-d008adf6.png",
+    "src": "src/graphics/images/run_2/run_2_header.png"
+  },
   "src/graphics/images/setup/setup_first.png": {
     "file": "assets/setup_first-20a7bf4c.png",
     "src": "src/graphics/images/setup/setup_first.png"
@@ -170,11 +215,11 @@
     "css": [
       "assets/setup-94c36feb.css"
     ],
-    "file": "assets/setup-4f29b0de.js",
+    "file": "assets/setup-05b5c6ef.js",
     "imports": [
-      "_timer-ed193395.js",
-      "_BaseOverlay.vue_vue_type_script_setup_true_lang-5577a75a.js",
-      "_setupInformation-33af85b6.js"
+      "_timer-f0fd1a4e.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-4448a2d3.js",
+      "_setupInformation-627cee18.js"
     ],
     "isEntry": true,
     "src": "src/graphics/setup.ts"
@@ -194,11 +239,11 @@
     "css": [
       "assets/singleDs-3ef8a1c4.css"
     ],
-    "file": "assets/singleDs-1126b8b6.js",
+    "file": "assets/singleDs-2b2db9be.js",
     "imports": [
-      "_timer-ed193395.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-79550e71.js",
-      "_BaseOverlay.vue_vue_type_script_setup_true_lang-5577a75a.js"
+      "_timer-f0fd1a4e.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-d7d73f7f.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-4448a2d3.js"
     ],
     "isEntry": true,
     "src": "src/graphics/singleDs.ts"
@@ -218,11 +263,11 @@
     "css": [
       "assets/singleHd-eb6ee1b3.css"
     ],
-    "file": "assets/singleHd-5a5e793c.js",
+    "file": "assets/singleHd-726d142d.js",
     "imports": [
-      "_timer-ed193395.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-79550e71.js",
-      "_BaseOverlay.vue_vue_type_script_setup_true_lang-5577a75a.js"
+      "_timer-f0fd1a4e.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-d7d73f7f.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-4448a2d3.js"
     ],
     "isEntry": true,
     "src": "src/graphics/singleHd.ts"
