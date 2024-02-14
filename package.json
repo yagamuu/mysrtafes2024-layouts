@@ -113,6 +113,11 @@
         "file": "doubleHd.html",
         "width": 1920,
         "height": 1080
+      },
+      {
+        "file": "doubleSd.html",
+        "width": 1920,
+        "height": 1080
       }
     ],
     "assetCategories": [
