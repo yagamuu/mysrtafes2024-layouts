@@ -6,3 +6,4 @@ export * from './timer';
 export * from './spotifyPlayingTrack';
 export * from './startSoon';
 export * from './setupInformation';
+export * from './customData';

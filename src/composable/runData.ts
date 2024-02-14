@@ -72,8 +72,6 @@ export function useRunData() {
     return util.formatSeconds(estimateS);
   });
 
-  const isChallenge = computed(() => runDataActiveRun?.data?.customData.isChallenge ? true : false);
-
   return {
     runDataActiveRun,
     players,
@@ -86,6 +84,5 @@ export function useRunData() {
     runSystem,
     runRelease,
     estimate,
-    isChallenge,
   }
 }
