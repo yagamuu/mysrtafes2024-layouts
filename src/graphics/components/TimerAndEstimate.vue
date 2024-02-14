@@ -1,9 +1,10 @@
 <!-- eslint-disable max-len -->
 <script setup lang="ts">
 import { computed } from 'vue';
-import { useRunData, useTimer, useTimekeeping } from '@mysrtafes2024-layouts/composable';
+import { useRunData, useTimer, useTimekeeping, useCustomData } from '@mysrtafes2024-layouts/composable';
 
-const { estimate, isChallenge } = useRunData();
+const { estimate } = useRunData();
+const { isChallenge } = useCustomData();
 
 const { time, runState } = useTimer();
 
