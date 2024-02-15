@@ -250,7 +250,7 @@
     "src": "src/graphics/images/setup/setup_second.png"
   },
   "src/graphics/setup.css": {
-    "file": "assets/setup-94c36feb.css",
+    "file": "assets/setup-2710ca92.css",
     "src": "src/graphics/setup.css"
   },
   "src/graphics/setup.ts": {
@@ -260,9 +260,9 @@
       "assets/setup_second-498d440e.png"
     ],
     "css": [
-      "assets/setup-94c36feb.css"
+      "assets/setup-2710ca92.css"
     ],
-    "file": "assets/setup-3db3b2b2.js",
+    "file": "assets/setup-4930c21f.js",
     "imports": [
       "_timer-96652686.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-a74b1e51.js",
