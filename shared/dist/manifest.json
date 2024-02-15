@@ -36,6 +36,12 @@
       "_timer-96652686.js"
     ]
   },
+  "_startSoon-0cc6b27d.js": {
+    "file": "assets/startSoon-0cc6b27d.js",
+    "imports": [
+      "_timer-96652686.js"
+    ]
+  },
   "_timer-96652686.js": {
     "file": "assets/timer-96652686.js"
   },
@@ -122,11 +128,12 @@
     "src": "src/dashboard/setupInformation.ts"
   },
   "src/dashboard/startSoon.ts": {
-    "file": "assets/startSoon-3fff1d71.js",
+    "file": "assets/startSoon-149d5d9c.js",
     "imports": [
       "_use-form-aa63f985.js",
       "_timer-96652686.js",
-      "_option-sizes-e891b7a4.js"
+      "_option-sizes-e891b7a4.js",
+      "_startSoon-0cc6b27d.js"
     ],
     "isEntry": true,
     "src": "src/dashboard/startSoon.ts"
@@ -250,7 +257,7 @@
     "src": "src/graphics/images/setup/setup_second.png"
   },
   "src/graphics/setup.css": {
-    "file": "assets/setup-2710ca92.css",
+    "file": "assets/setup-3ebec0e8.css",
     "src": "src/graphics/setup.css"
   },
   "src/graphics/setup.ts": {
@@ -260,11 +267,12 @@
       "assets/setup_second-498d440e.png"
     ],
     "css": [
-      "assets/setup-2710ca92.css"
+      "assets/setup-3ebec0e8.css"
     ],
-    "file": "assets/setup-4930c21f.js",
+    "file": "assets/setup-73421408.js",
     "imports": [
       "_timer-96652686.js",
+      "_startSoon-0cc6b27d.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-a74b1e51.js",
       "_setupInformation-d98fac04.js"
     ],
