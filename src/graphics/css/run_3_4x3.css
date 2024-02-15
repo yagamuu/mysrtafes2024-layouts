@@ -1,0 +1,291 @@
+body {
+  background-image: url("./../images/common/background.png");
+  /* 上記いらんかも */
+}
+
+#container {
+  width: 1920px;
+  height: 1080px;
+  border: 16px solid rgba(25, 25, 25, 1);
+  border-bottom-width: 50px;
+}
+
+.cloud {
+  background: url(./../images/run_3/cloud.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 1920px;
+  height: 283px;
+  top: 13px;
+  right: 0px;
+  z-index: 1;
+  position: absolute;
+}
+
+.logo {
+  position: absolute;
+  width: 193px;
+  height: 204px;
+  left: 116px;
+  top: 18px;
+  background: url(./../images/common/fushi_logo2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 5;
+}
+
+.kaisetsu_box {
+  position: absolute;
+  left: 56px;
+  top: 467px;
+  width: 373.81px;
+  height: 550.41px;
+  background: url(./../images/run_3_4x3/kaisetsu.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  position: absolute;
+  left: 77px;
+  top: 69px;
+  width: 331px;
+  height: 350px;
+  background: url(./../images/common/fushi_logo2.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 3;
+}
+
+.information_box {
+  position: absolute;
+  left: 456px;
+  top: 39px;
+  width: 720.8px;
+  height: 473.68px;
+  background: url(./../images/run_3/run_3.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 4;
+}
+
+.movie {
+  width: 593.33px;
+  height: 495px;
+  background-color: rebeccapurple;
+  position: absolute;
+  top: 26px;
+  left: 1215px;
+  z-index: 10;
+}
+
+.movie_footer {
+  width: 100%;
+  height: 50px;
+  background-color: rgba(203, 186, 149, 1);
+  position: absolute;
+  bottom: 0;
+  border: solid 4px rgba(25, 25, 25, 1);
+  border-top: transparent;
+  color: rgba(55, 35, 31, 1);
+  font-size: 28px;
+  line-height: 40px;
+  font-weight: 900;
+  font-family: "M PLUS 1", sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.movie_footer .player_time {
+  color: rgba(10, 35, 46, 0.6);
+  font-size: 36px;
+  line-height: 36px;
+  font-weight: 800;
+  font-family: "Inconsolata", monospace;
+  right: 10px;
+  display: flex;
+  align-items: center;
+  padding-right: 10px;
+  height: 36px;
+}
+
+.movie_footer .player_time.stop_blown {
+  background-color: rgba(126, 49, 6, 1);
+  color: #fff;
+}
+
+.movie_footer .player_time .flag {
+  display: none;
+}
+
+.movie_footer .player_time.stop_blown .flag {
+  background: url(./../images/run_2/flag.png);
+  width: 44px;
+  height: 25.5px;
+  display: block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.movie2 {
+  width: 593.33px;
+  height: 495px;
+  background-color: rebeccapurple;
+  position: absolute;
+  top: 531px;
+  left: 509px;
+  z-index: 10;
+}
+
+.movie3 {
+  width: 593.33px;
+  height: 495px;
+  background-color: rebeccapurple;
+  position: absolute;
+  top: 531px;
+  left: 1215px;
+  z-index: 10;
+}
+
+.footer .right {
+  display: flex;
+  align-items: center;
+}
+
+.footer {
+  position: absolute;
+  width: 1920px;
+  height: 50px;
+  padding: 0 16px;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 900;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.footer span {
+  margin-left: 20px;
+}
+
+.x_icon {
+  width: 28px;
+  height: 28px;
+  background-image: url("./../images/common/x_icon.png");
+  background-size: contain;
+  margin-right: 2px;
+}
+
+.time {
+  width: 532px;
+  /* background: darkblue; */
+  height: 121px;
+  position: absolute;
+  right: 95px;
+  top: 340px;
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 10px;
+}
+
+.time .now {
+  display: inline-block;
+  height: 50px;
+  color: rgba(55, 35, 31, 1);
+  font-weight: 900;
+  font-family: "Inconsolata", monospace;
+  font-size: 80px;
+  line-height: 70px;
+  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
+    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
+}
+
+.time .will {
+  display: flex;
+  flex-direction: column;
+  height: 33px;
+  align-items: center;
+  margin-left: 30px;
+  color: rgba(55, 35, 31, 1);
+  font-weight: 900;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 24px;
+  line-height: 24px;
+  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
+    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
+}
+
+.time .will span {
+  font-family: "Inconsolata", monospace;
+  font-size: 33px;
+  line-height: 33px;
+}
+
+.title {
+  display: inline-block;
+  color: rgba(55, 35, 31, 1);
+  font-weight: 900;
+  font-family: "M PLUS 1", sans-serif;
+  font-size: 50px;
+  line-height: 60px;
+  width: 650px;
+  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
+    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
+  position: absolute;
+  text-align: center;
+  left: 35px;
+  top: 43px;
+}
+
+.dashed_line {
+  width: 650px;
+  height: 3px;
+  background-image: url(./../images/run_3/border.png);
+  background-size: contain;
+  display: block;
+  position: absolute;
+  top: 243px;
+  left: 35px;
+}
+
+.game_detail {
+  position: absolute;
+  display: block;
+  left: 150px;
+  top: 262px;
+  width: 424px;
+  height: 61px;
+  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
+    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
+
+  color: rgba(55, 35, 31, 1);
+  text-align: center;
+  font-size: 26px;
+  line-height: 34px;
+  font-weight: 900;
+  font-family: "M PLUS 1", sans-serif;
+}
+
+.time .now.stop_yellow {
+  color: rgba(255, 222, 48, 1);
+  text-shadow: 2.5px 2.5px 0 rgba(55, 35, 31, 1),
+    -2.5px -2.5px 0 rgba(55, 35, 31, 1), -2.5px 2.5px 0 rgba(55, 35, 31, 1),
+    2.5px -2.5px 0 rgba(55, 35, 31, 1), 0px 2.5px 0 rgba(55, 35, 31, 1),
+    0-2.5px 0 rgba(55, 35, 31, 1), -2.5px 0 0 rgba(55, 35, 31, 1),
+    2.5px 0 0 rgba(55, 35, 31, 1);
+}
