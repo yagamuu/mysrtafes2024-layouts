@@ -132,7 +132,7 @@
     "src": "src/dashboard/startSoon.ts"
   },
   "src/graphics/doubleHd.css": {
-    "file": "assets/doubleHd-c6b49ca9.css",
+    "file": "assets/doubleHd-562f1a17.css",
     "src": "src/graphics/doubleHd.css"
   },
   "src/graphics/doubleHd.ts": {
@@ -141,13 +141,13 @@
       "assets/fushi_logo2-ac0ab78f.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
-      "assets/run_2_header-d008adf6.png",
+      "assets/run_2_header-15a62283.png",
       "assets/run_2-c1e04fba.png"
     ],
     "css": [
-      "assets/doubleHd-c6b49ca9.css"
+      "assets/doubleHd-562f1a17.css"
     ],
-    "file": "assets/doubleHd-467ee009.js",
+    "file": "assets/doubleHd-f923b609.js",
     "imports": [
       "_timer-96652686.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-980ff6a5.js",
@@ -226,7 +226,7 @@
     "src": "src/graphics/images/run_2/run_2.png"
   },
   "src/graphics/images/run_2/run_2_header.png": {
-    "file": "assets/run_2_header-d008adf6.png",
+    "file": "assets/run_2_header-15a62283.png",
     "src": "src/graphics/images/run_2/run_2_header.png"
   },
   "src/graphics/images/run_2_4x3/cloud.png": {
