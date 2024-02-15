@@ -124,13 +124,13 @@
 
 .setup_box_2 .next_time_box,
 .setup_box_3 .next_time_box {
-  width: 200px;
+  width: 206px;
   height: 140px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: absolute;
-  left: 17px;
+  left: 10px;
   top: 0;
   bottom: 10px;
   margin: auto;
