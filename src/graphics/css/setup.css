@@ -216,3 +216,62 @@
   background-size: contain;
   margin-right: 2px;
 }
+
+.description_part_alert {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  font-family: "M PLUS 1";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 93px;
+  padding-right: 30px;
+  width: 100%;
+  height: 100%;
+  color: #363636;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.active .description_part_alert {
+  transition: 0.7s;
+  opacity: 1;
+  animation: 1s ease-in 1s infinite alternate forwards running blinking;
+}
+
+.description_part.active {
+  opacity: 1;
+}
+
+.description_part {
+  opacity: 0;
+  position: fixed;
+  width: 1920px;
+  height: 125px;
+  left: 0px;
+  top: 0px;
+  transition: 1s;
+  background: rgba(220, 166, 0, 1);
+  border-bottom: 16px solid rgba(25, 25, 25, 1);
+  z-index: 100;
+}
+
+@keyframes blinking {
+  0% {
+    opacity: 1;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
