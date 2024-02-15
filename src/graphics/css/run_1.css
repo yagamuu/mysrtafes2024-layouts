@@ -39,6 +39,7 @@
   background: url(./../images/run_1/video.png);
   background-size: contain;
   z-index: 1;
+  background-repeat: no-repeat;
 }
 
 .kaisetsu_box {
@@ -56,7 +57,7 @@
 .information_box {
   position: absolute;
   left: 16px;
-  top: 841px;
+  top: 856px;
   width: 1888px;
   height: 170px;
   background: url(./../images/run_1/run_1.png);
