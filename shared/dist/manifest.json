@@ -327,6 +327,31 @@
     "isEntry": true,
     "src": "src/graphics/singleHd.ts"
   },
+  "src/graphics/unrailed.css": {
+    "file": "assets/unrailed-d263b9a5.css",
+    "src": "src/graphics/unrailed.css"
+  },
+  "src/graphics/unrailed.ts": {
+    "assets": [
+      "assets/cloud-15dc1a47.png",
+      "assets/fushi_logo2-ac0ab78f.png",
+      "assets/video-e295fdb7.png",
+      "assets/kaisetsu-88655cdc.png",
+      "assets/run_2_header-15a62283.png",
+      "assets/run_2-c1e04fba.png"
+    ],
+    "css": [
+      "assets/unrailed-d263b9a5.css"
+    ],
+    "file": "assets/unrailed-c1d4b424.js",
+    "imports": [
+      "_timer-96652686.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-980ff6a5.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-a74b1e51.js"
+    ],
+    "isEntry": true,
+    "src": "src/graphics/unrailed.ts"
+  },
   "use-form.css": {
     "file": "assets/use-form-91a247d2.css",
     "src": "use-form.css"
