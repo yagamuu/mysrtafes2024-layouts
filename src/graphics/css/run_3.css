@@ -245,6 +245,10 @@
   text-align: center;
   left: 35px;
   top: 43px;
+  display: flex;
+  align-items: center;
+  height: 180px;
+  justify-content: center;
 }
 
 .dashed_line {

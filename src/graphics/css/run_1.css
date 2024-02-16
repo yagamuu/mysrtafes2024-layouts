@@ -170,6 +170,10 @@
   left: 440px;
   top: 38px;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
 }
 
 .dashed_line {
