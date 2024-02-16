@@ -264,6 +264,26 @@
     "file": "assets/kaisetsu-f6ffeb04.png",
     "src": "src/graphics/images/run_3_4x3/kaisetsu.png"
   },
+  "src/graphics/images/run_3_bingo/bingo_back.png": {
+    "file": "assets/bingo_back-bf7aac31.png",
+    "src": "src/graphics/images/run_3_bingo/bingo_back.png"
+  },
+  "src/graphics/images/run_3_bingo/kaisetsu.png": {
+    "file": "assets/kaisetsu-403e7dc5.png",
+    "src": "src/graphics/images/run_3_bingo/kaisetsu.png"
+  },
+  "src/graphics/images/run_3_bingo/run_3.png": {
+    "file": "assets/run_3-bd6b3782.png",
+    "src": "src/graphics/images/run_3_bingo/run_3.png"
+  },
+  "src/graphics/images/run_3_bingo_4x3/kaisetsu.png": {
+    "file": "assets/kaisetsu-d232a971.png",
+    "src": "src/graphics/images/run_3_bingo_4x3/kaisetsu.png"
+  },
+  "src/graphics/images/run_3_bingo_4x3/run_3.png": {
+    "file": "assets/run_3-a5b3db75.png",
+    "src": "src/graphics/images/run_3_bingo_4x3/run_3.png"
+  },
   "src/graphics/images/setup/setup_first.png": {
     "file": "assets/setup_first-20a7bf4c.png",
     "src": "src/graphics/images/setup/setup_first.png"
@@ -368,6 +388,32 @@
     "isEntry": true,
     "src": "src/graphics/tripleHd.ts"
   },
+  "src/graphics/tripleHdBingo.css": {
+    "file": "assets/tripleHdBingo-4c8ea151.css",
+    "src": "src/graphics/tripleHdBingo.css"
+  },
+  "src/graphics/tripleHdBingo.ts": {
+    "assets": [
+      "assets/cloud-78ebcad4.png",
+      "assets/fushi_logo2-ac0ab78f.png",
+      "assets/run_3-bd6b3782.png",
+      "assets/bingo_back-bf7aac31.png",
+      "assets/kaisetsu-403e7dc5.png"
+    ],
+    "css": [
+      "assets/tripleHdBingo-4c8ea151.css"
+    ],
+    "file": "assets/tripleHdBingo-71396bcf.js",
+    "imports": [
+      "_timer-7512c1b3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-46f5e48e.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-8059ff4e.js",
+      "_RunnerNameplate.vue_vue_type_script_setup_true_lang-108eba18.js",
+      "_displaySound-f95eaf9b.js"
+    ],
+    "isEntry": true,
+    "src": "src/graphics/tripleHdBingo.ts"
+  },
   "src/graphics/tripleSd.css": {
     "file": "assets/tripleSd-53d121df.css",
     "src": "src/graphics/tripleSd.css"
@@ -392,6 +438,32 @@
     ],
     "isEntry": true,
     "src": "src/graphics/tripleSd.ts"
+  },
+  "src/graphics/tripleSdBingo.css": {
+    "file": "assets/tripleSdBingo-384c5e18.css",
+    "src": "src/graphics/tripleSdBingo.css"
+  },
+  "src/graphics/tripleSdBingo.ts": {
+    "assets": [
+      "assets/cloud-78ebcad4.png",
+      "assets/fushi_logo2-ac0ab78f.png",
+      "assets/run_3-a5b3db75.png",
+      "assets/bingo_back-bf7aac31.png",
+      "assets/kaisetsu-d232a971.png"
+    ],
+    "css": [
+      "assets/tripleSdBingo-384c5e18.css"
+    ],
+    "file": "assets/tripleSdBingo-1d2eb48a.js",
+    "imports": [
+      "_timer-7512c1b3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-46f5e48e.js",
+      "_BaseOverlay.vue_vue_type_script_setup_true_lang-8059ff4e.js",
+      "_RunnerNameplate.vue_vue_type_script_setup_true_lang-108eba18.js",
+      "_displaySound-f95eaf9b.js"
+    ],
+    "isEntry": true,
+    "src": "src/graphics/tripleSdBingo.ts"
   },
   "src/graphics/unrailed.css": {
     "file": "assets/unrailed-d8b1d06d.css",
