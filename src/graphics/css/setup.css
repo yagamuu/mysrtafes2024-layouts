@@ -50,6 +50,16 @@
   background-repeat: no-repeat;
 }
 
+.detail span {
+  opacity: 0;
+  transition: 1s;
+  position: absolute;
+}
+
+.detail span.active {
+  opacity: 1;
+}
+
 .setup_box_1 .title {
   font-size: 48px;
   line-height: 60px;
