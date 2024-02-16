@@ -273,7 +273,7 @@
     "src": "src/graphics/images/setup/setup_second.png"
   },
   "src/graphics/setup.css": {
-    "file": "assets/setup-3ebec0e8.css",
+    "file": "assets/setup-efed733d.css",
     "src": "src/graphics/setup.css"
   },
   "src/graphics/setup.ts": {
@@ -283,9 +283,9 @@
       "assets/setup_second-498d440e.png"
     ],
     "css": [
-      "assets/setup-3ebec0e8.css"
+      "assets/setup-efed733d.css"
     ],
-    "file": "assets/setup-923451be.js",
+    "file": "assets/setup-09aa268c.js",
     "imports": [
       "_timer-7512c1b3.js",
       "_startSoon-42ff05c5.js",
