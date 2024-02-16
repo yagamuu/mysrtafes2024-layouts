@@ -245,6 +245,10 @@
   top: calc(38px + 34px);
   text-align: center;
   left: 380px;
+  display: flex;
+  align-items: center;
+  height: 100px;
+  justify-content: center;
 }
 
 .dashed_line {
