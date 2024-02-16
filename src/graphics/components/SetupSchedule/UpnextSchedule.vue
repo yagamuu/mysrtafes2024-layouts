@@ -25,7 +25,7 @@ const displaySetupInformation = ref(0);
 setInterval(() => {
   const length = setupInformationArray?.data?.length || 0;
   displaySetupInformation.value = (displaySetupInformation.value + 1) % length;
-}, 3000000);
+}, 30000);
 
 </script>
 
@@ -37,12 +37,13 @@ setInterval(() => {
     <span class="runner">
       {{ runData?.category }} / Runner : {{ runners }}
     </span>
-    <span
-      class="detail"
-      v-for="(information, index) in setupInformationArray?.data"
-      :key="information.id"
-      :class="[index === displaySetupInformation ? 'active' : '']">
-      {{ information.text }}
+    <span class="detail">
+      <span
+        v-for="(information, index) in setupInformationArray?.data"
+        :key="information.id"
+        :class="[index === displaySetupInformation ? 'active' : '']">
+        {{ information.text }}
+      </span>
     </span>
   </div>
 </template>
