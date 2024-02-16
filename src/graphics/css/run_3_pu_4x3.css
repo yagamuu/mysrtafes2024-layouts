@@ -111,6 +111,7 @@
   height: 38px;
   width: 190px;
   margin-left: auto;
+  justify-content: flex-end;
 }
 
 .movie_footer .player_time.stop_blown {
@@ -168,6 +169,7 @@
   align-items: center;
   padding-right: 10px;
   height: 36px;
+  justify-content: flex-end;
 }
 
 .movie .movie_footer .player_time.stop_blown {
