@@ -139,7 +139,7 @@
     "src": "src/dashboard/startSoon.ts"
   },
   "src/graphics/doubleHd.css": {
-    "file": "assets/doubleHd-562f1a17.css",
+    "file": "assets/doubleHd-34b61f96.css",
     "src": "src/graphics/doubleHd.css"
   },
   "src/graphics/doubleHd.ts": {
@@ -152,9 +152,9 @@
       "assets/run_2-c1e04fba.png"
     ],
     "css": [
-      "assets/doubleHd-562f1a17.css"
+      "assets/doubleHd-34b61f96.css"
     ],
-    "file": "assets/doubleHd-726994c3.js",
+    "file": "assets/doubleHd-a530b815.js",
     "imports": [
       "_timer-7512c1b3.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-46f5e48e.js",
@@ -166,7 +166,7 @@
     "src": "src/graphics/doubleHd.ts"
   },
   "src/graphics/doubleSd.css": {
-    "file": "assets/doubleSd-c738e893.css",
+    "file": "assets/doubleSd-5d27ea50.css",
     "src": "src/graphics/doubleSd.css"
   },
   "src/graphics/doubleSd.ts": {
@@ -179,9 +179,9 @@
       "assets/run_2-70a517fa.png"
     ],
     "css": [
-      "assets/doubleSd-c738e893.css"
+      "assets/doubleSd-5d27ea50.css"
     ],
-    "file": "assets/doubleSd-0e104f3b.js",
+    "file": "assets/doubleSd-56ccf06a.js",
     "imports": [
       "_timer-7512c1b3.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-46f5e48e.js",
@@ -296,7 +296,7 @@
     "src": "src/graphics/setup.ts"
   },
   "src/graphics/singleDs.css": {
-    "file": "assets/singleDs-e9bedc9a.css",
+    "file": "assets/singleDs-c2a6f291.css",
     "src": "src/graphics/singleDs.css"
   },
   "src/graphics/singleDs.ts": {
@@ -308,9 +308,9 @@
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/singleDs-e9bedc9a.css"
+      "assets/singleDs-c2a6f291.css"
     ],
-    "file": "assets/singleDs-e6c35e0c.js",
+    "file": "assets/singleDs-f3b10424.js",
     "imports": [
       "_timer-7512c1b3.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-46f5e48e.js",
@@ -320,7 +320,7 @@
     "src": "src/graphics/singleDs.ts"
   },
   "src/graphics/singleHd.css": {
-    "file": "assets/singleHd-3c8ffbf4.css",
+    "file": "assets/singleHd-a63513ee.css",
     "src": "src/graphics/singleHd.css"
   },
   "src/graphics/singleHd.ts": {
@@ -332,9 +332,9 @@
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/singleHd-3c8ffbf4.css"
+      "assets/singleHd-a63513ee.css"
     ],
-    "file": "assets/singleHd-d73f015b.js",
+    "file": "assets/singleHd-9bb94d1c.js",
     "imports": [
       "_timer-7512c1b3.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-46f5e48e.js",
@@ -344,7 +344,7 @@
     "src": "src/graphics/singleHd.ts"
   },
   "src/graphics/tripleHd.css": {
-    "file": "assets/tripleHd-bbdfa17c.css",
+    "file": "assets/tripleHd-1e7b29e5.css",
     "src": "src/graphics/tripleHd.css"
   },
   "src/graphics/tripleHd.ts": {
@@ -355,9 +355,9 @@
       "assets/run_3-790926a5.png"
     ],
     "css": [
-      "assets/tripleHd-bbdfa17c.css"
+      "assets/tripleHd-1e7b29e5.css"
     ],
-    "file": "assets/tripleHd-71a1aa38.js",
+    "file": "assets/tripleHd-9e1c119a.js",
     "imports": [
       "_timer-7512c1b3.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-46f5e48e.js",
@@ -369,7 +369,7 @@
     "src": "src/graphics/tripleHd.ts"
   },
   "src/graphics/tripleSd.css": {
-    "file": "assets/tripleSd-7778db4a.css",
+    "file": "assets/tripleSd-53d121df.css",
     "src": "src/graphics/tripleSd.css"
   },
   "src/graphics/tripleSd.ts": {
@@ -380,9 +380,9 @@
       "assets/run_3-790926a5.png"
     ],
     "css": [
-      "assets/tripleSd-7778db4a.css"
+      "assets/tripleSd-53d121df.css"
     ],
-    "file": "assets/tripleSd-064a49d6.js",
+    "file": "assets/tripleSd-ce0e7d2e.js",
     "imports": [
       "_timer-7512c1b3.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-46f5e48e.js",
@@ -394,7 +394,7 @@
     "src": "src/graphics/tripleSd.ts"
   },
   "src/graphics/unrailed.css": {
-    "file": "assets/unrailed-d263b9a5.css",
+    "file": "assets/unrailed-d8b1d06d.css",
     "src": "src/graphics/unrailed.css"
   },
   "src/graphics/unrailed.ts": {
@@ -407,9 +407,9 @@
       "assets/run_2-c1e04fba.png"
     ],
     "css": [
-      "assets/unrailed-d263b9a5.css"
+      "assets/unrailed-d8b1d06d.css"
     ],
-    "file": "assets/unrailed-6983dea6.js",
+    "file": "assets/unrailed-6a609f19.js",
     "imports": [
       "_timer-7512c1b3.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-46f5e48e.js",
