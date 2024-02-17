@@ -61,5 +61,6 @@ useHead({ title: 'TripleSDBingo' });
 
 <style>
   @import url('../css/reset.css');
+  @import url('../css/common.css');
   @import url('../css/run_3_bingo_4x3.css');
 </style>

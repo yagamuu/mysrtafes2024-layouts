@@ -61,5 +61,6 @@ useHead({ title: 'TripleHD' });
 
 <style>
   @import url('../css/reset.css');
+  @import url('../css/common.css');
   @import url('../css/run_3.css');
 </style>

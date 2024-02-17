@@ -61,5 +61,6 @@ useHead({ title: 'TripleSD' });
 
 <style>
   @import url('../css/reset.css');
+  @import url('../css/common.css');
   @import url('../css/run_3_4x3.css');
 </style>

@@ -36,5 +36,6 @@ useHead({ title: 'SingleHD' });
 
 <style>
   @import url('../css/reset.css');
+  @import url('../css/common.css');
   @import url('../css/run_1.css');
 </style>

@@ -1,70 +1,37 @@
-#container {
-  width: 1920px;
-  height: 1080px;
-  border: 16px solid rgba(25, 25, 25, 1);
-  border-bottom-width: 50px;
-}
-
 .cloud {
-  background: url(./../images/run_3/cloud.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(./../images/run_3/cloud.png) no-repeat center / contain;
   width: 1920px;
-  height: 283px;
-  top: 13px;
-  right: 0px;
+  height: 288px;
+  top: -3px;
+  right: -16px;
   z-index: 1;
   position: absolute;
 }
 
 .logo {
-  position: absolute;
-  width: 193px;
-  height: 204px;
-  left: 116px;
-  top: 18px;
-  background: url(./../images/common/fushi_logo2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 5;
+  left: 59px;
+  top: 54px;
+  width: 331px;
+  height: 350px;
+  z-index: 3;
 }
 
 .kaisetsu_box {
   position: absolute;
-  left: 56px;
-  top: 467px;
-  width: 373.81px;
-  height: 550.41px;
-  background: url(./../images/run_3_4x3/kaisetsu.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.logo {
-  position: absolute;
-  left: 77px;
-  top: 69px;
-  width: 331px;
-  height: 350px;
-  background: url(./../images/common/fushi_logo2.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 3;
+  left: 40px;
+  top: 451px;
+  width: 378.5px;
+  height: 551.5px;
+  background: url(./../images/run_3_4x3/kaisetsu.png) no-repeat center / contain;
 }
 
 .information_box {
   position: absolute;
-  left: 456px;
-  top: 39px;
-  width: 720.8px;
-  height: 473.68px;
-  background: url(./../images/run_3/run_3.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  left: 436px;
+  top: 18px;
+  width: 731px;
+  height: 480px;
+  background: url(./../images/run_3/run_3.png) no-repeat center / contain;
   z-index: 4;
 }
 
@@ -73,8 +40,8 @@
   height: 495px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 26px;
-  left: 1215px;
+  top: 10px;
+  left: 1199px;
   z-index: 10;
 }
 
@@ -135,8 +102,8 @@
   height: 495px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 531px;
-  left: 509px;
+  top: 515px;
+  left: 493px;
   z-index: 10;
 }
 
@@ -145,146 +112,75 @@
   height: 495px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 531px;
-  left: 1215px;
+  top: 515px;
+  left: 1198px;
   z-index: 10;
 }
 
-.footer .right {
-  display: flex;
-  align-items: center;
-}
-
-.footer {
-  position: absolute;
-  width: 1920px;
-  height: 50px;
-  padding: 0 16px;
-  bottom: 0;
+.game_box {
+  width: 100%;
+  height: 388px;
+  top: 0;
   left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: rgba(255, 255, 255, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 24px;
-  line-height: 35px;
-}
-
-.footer span {
-  margin-left: 20px;
-}
-
-.x_icon {
-  width: 28px;
-  height: 28px;
-  background-image: url("./../images/common/x_icon.png");
-  background-size: contain;
-  margin-right: 2px;
+  padding-bottom: 24px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
 }
 
 .time {
-  width: 532px;
-  /* background: darkblue; */
-  height: 121px;
+  width: 480px;
+  right: 122px;
+  top: 374px;
   position: absolute;
-  right: 95px;
-  top: 340px;
+  left: auto;
   display: flex;
-  /* flex-direction: column; */
+  flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding-bottom: 10px;
+  gap: 40px;
 }
 
 .time .now {
   display: inline-block;
-  height: 50px;
   color: rgba(55, 35, 31, 1);
   font-weight: 900;
   font-family: "Inconsolata", monospace;
   font-size: 80px;
-  line-height: 70px;
+  height: auto;
+  margin-bottom: 0;
+  letter-spacing: -2.1px;
   text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
+  2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
 }
 
 .time .will {
-  display: flex;
-  flex-direction: column;
-  height: 33px;
-  align-items: center;
-  margin-left: 30px;
-  color: rgba(55, 35, 31, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 24px;
-  line-height: 24px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
+  padding-top: 6px;
+  display: block;
+  height: auto;
 }
 
 .time .will span {
-  font-family: "Inconsolata", monospace;
-  font-size: 33px;
-  line-height: 33px;
+  display: block;
+  margin: 4px 0 0;
+  text-align: center;
 }
 
 .title {
-  display: inline-block;
-  color: rgba(55, 35, 31, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 50px;
-  line-height: 60px;
-  width: 650px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-  position: absolute;
-  text-align: center;
-  left: 35px;
-  top: 43px;
-  display: flex;
-  align-items: center;
-  height: 180px;
-  justify-content: center;
+  flex-grow: 0;
 }
 
 .dashed_line {
   width: 650px;
-  height: 3px;
+  height: 4px;
   background-image: url(./../images/run_3/border.png);
   background-size: contain;
   display: block;
-  position: absolute;
+  /*position: absolute;*/
   top: 243px;
   left: 35px;
 }
 
 .game_detail {
-  position: absolute;
-  display: block;
-  left: 150px;
-  top: 262px;
-  width: 424px;
-  height: 61px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-
-  color: rgba(55, 35, 31, 1);
-  text-align: center;
-  font-size: 26px;
-  line-height: 34px;
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-}
-
-.time .now.stop_yellow {
-  color: rgba(255, 222, 48, 1);
-  text-shadow: 2.5px 2.5px 0 rgba(55, 35, 31, 1),
-    -2.5px -2.5px 0 rgba(55, 35, 31, 1), -2.5px 2.5px 0 rgba(55, 35, 31, 1),
-    2.5px -2.5px 0 rgba(55, 35, 31, 1), 0px 2.5px 0 rgba(55, 35, 31, 1),
-    0-2.5px 0 rgba(55, 35, 31, 1), -2.5px 0 0 rgba(55, 35, 31, 1),
-    2.5px 0 0 rgba(55, 35, 31, 1);
+  max-width: 100%;
 }

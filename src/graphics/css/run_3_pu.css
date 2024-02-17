@@ -1,70 +1,37 @@
-#container {
-  width: 1920px;
-  height: 1080px;
-  border: 16px solid rgba(25, 25, 25, 1);
-  border-bottom-width: 50px;
-}
-
 .cloud {
-  background: url(./../images/run_3/cloud.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(./../images/run_3/cloud.png) no-repeat center / contain;
   width: 1920px;
-  height: 283px;
-  top: 13px;
-  right: 0px;
+  height: 288px;
+  top: -3px;
+  right: -16px;
   z-index: 1;
   position: absolute;
 }
 
 .logo {
-  position: absolute;
+  left: 65px;
+  top: 32px;
   width: 193px;
   height: 204px;
-  left: 116px;
-  top: 18px;
-  background: url(./../images/common/fushi_logo2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 5;
+  z-index: 3;
 }
 
 .kaisetsu_box {
   position: absolute;
-  left: 36px;
-  top: 300px;
-  width: 300px;
-  height: 527px;
-  background: url(./../images/run_3_pu/kaisetsu.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.logo {
-  position: absolute;
-  left: 83px;
-  top: 48px;
-  width: 193px;
-  height: 204px;
-  background: url(./../images/common/fushi_logo2.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 3;
+  left: 18px;
+  top: 275px;
+  width: 302px;
+  height: 534px;
+  background: url(./../images/run_3_pu/kaisetsu.png) no-repeat center / contain;
 }
 
 .information_box {
   position: absolute;
-  left: 16px;
-  top: 841px;
-  width: 1888px;
+  left: 0;
+  bottom: 22px;
+  width: 100%;
   height: 170px;
-  background: url(./../images/run_1/run_1.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./../images/run_1/run_1.png) no-repeat center / contain;
 }
 
 .movie {
@@ -72,8 +39,8 @@
   height: 710px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 113px;
-  left: 348px;
+  top: 97px;
+  left: 332px;
   z-index: 10;
 }
 
@@ -125,13 +92,10 @@
 }
 
 .movie_footer .player_time.stop_blown .flag {
-  background: url(./../images/run_2/flag.png);
   width: 44px;
   height: 25.5px;
   display: block;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./../images/run_2/flag.png) no-repeat center / contain;
 }
 
 .player {
@@ -183,13 +147,10 @@
 }
 
 .movie .movie_footer .player_time.stop_blown .flag {
-  background: url(./../images/run_2/flag.png);
   width: 44px;
   height: 25.5px;
   display: block;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./../images/run_2/flag.png) no-repeat center / contain;
 }
 
 .movie2 {
@@ -197,8 +158,8 @@
   height: 284px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 247px;
-  left: 1536px;
+  top: 231px;
+  left: 1520px;
   z-index: 10;
 }
 
@@ -207,43 +168,16 @@
   height: 284px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 539px;
-  left: 1536px;
+  top: 523px;
+  left: 1520px;
   z-index: 10;
 }
 
-.footer .right {
-  display: flex;
-  align-items: center;
-}
-
-.footer {
-  position: absolute;
-  width: 1920px;
-  height: 50px;
-  padding: 0 16px;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: rgba(255, 255, 255, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 24px;
-  line-height: 35px;
-}
-
-.footer span {
-  margin-left: 20px;
-}
-
-.x_icon {
-  width: 28px;
-  height: 28px;
-  background-image: url("./../images/common/x_icon.png");
-  background-size: contain;
-  margin-right: 2px;
+.game_box {
+  width: 1473px;
+  height: 154px;
+  top: 14px;
+  left: 396px;
 }
 
 .time {
@@ -251,7 +185,7 @@
   height: 138px;
   position: absolute;
   left: 26px;
-  top: 5px;
+  top: 12px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -290,62 +224,4 @@
   font-size: 33px;
   line-height: 33px;
   margin-left: 8px;
-}
-
-.title {
-  display: inline-block;
-  color: rgba(55, 35, 31, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 50px;
-  line-height: 50px;
-  width: 937px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-  position: absolute;
-  left: 440px;
-  top: 38px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  height: 100px;
-  justify-content: center;
-}
-
-.dashed_line {
-  width: 3px;
-  height: 101px;
-  background-image: url("./../images/run_1/dashed_line.png");
-  background-size: contain;
-  display: block;
-  position: absolute;
-  left: 1390px;
-  top: 40px;
-}
-
-.game_detail {
-  position: absolute;
-  display: block;
-  left: 1410px;
-  top: 60px;
-  width: 424px;
-  height: 61px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-
-  color: rgba(55, 35, 31, 1);
-  text-align: center;
-  font-size: 26px;
-  line-height: 34px;
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-}
-
-.time .now.stop_yellow {
-  color: rgba(255, 222, 48, 1);
-  text-shadow: 2.5px 2.5px 0 rgba(55, 35, 31, 1),
-    -2.5px -2.5px 0 rgba(55, 35, 31, 1), -2.5px 2.5px 0 rgba(55, 35, 31, 1),
-    2.5px -2.5px 0 rgba(55, 35, 31, 1), 0px 2.5px 0 rgba(55, 35, 31, 1),
-    0-2.5px 0 rgba(55, 35, 31, 1), -2.5px 0 0 rgba(55, 35, 31, 1),
-    2.5px 0 0 rgba(55, 35, 31, 1);
 }
