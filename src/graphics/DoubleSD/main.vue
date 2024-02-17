@@ -50,5 +50,6 @@ useHead({ title: 'DoubleSD' });
 
 <style>
   @import url('../css/reset.css');
+  @import url('../css/common.css');
   @import url('../css/run_2_4x3.css');
 </style>

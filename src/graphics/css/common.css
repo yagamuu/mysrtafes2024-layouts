@@ -1,3 +1,5 @@
+@charset "utf-8";
+
 #container {
   width: 1920px;
   height: 1080px;
@@ -70,7 +72,6 @@
   align-items: center;
 }
 
-
 .time .now {
   display: inline-block;
   height: 70px;
@@ -79,6 +80,7 @@
   font-family: "Inconsolata", monospace;
   font-size: 70px;
   line-height: 70px;
+  letter-spacing: -2.1px;
   margin-bottom: 15px;
   text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
   2px -2px 0 #fff, 0 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
@@ -127,7 +129,7 @@
   font-weight: 900;
   font-family: "M PLUS 1", sans-serif;
   font-size: 50px;
-  line-height: 50px;
+  line-height: 1.2;
   text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
     2px -2px 0 #fff, 0 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
   text-align: center;
@@ -137,6 +139,7 @@
   overflow-wrap: anywhere;
   word-break: keep-all;
   flex-grow: 1;
+  margin-top: -0.16em;
 }
 
 .dashed_line {

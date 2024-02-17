@@ -7,7 +7,7 @@
   width: calc(100% + 32px);
   height: 262px;
   top: 2px;
-  left: 0;
+  right: -16px;
   z-index: 1;
   position: absolute;
   opacity: 0.5;
@@ -52,10 +52,7 @@
   bottom: 6px;
   width: 1888px;
   height: 170px;
-  background: url(./../images/run_1/run_1.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./../images/run_1/run_1.png) no-repeat center / contain;
 }
 
 .movie {
@@ -73,4 +70,12 @@
   height: 154px;
   top: 14px;
   left: 396px;
+}
+
+.time {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
