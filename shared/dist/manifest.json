@@ -349,7 +349,7 @@
   },
   "src/graphics/singleHd.css": {
     "file": "assets/singleHd-5f5ccb6e.css",
-    "src": "src/graphics/singleHd.css"
+    "src": "src/graphics/singleSd.css"
   },
   "src/graphics/singleHd.ts": {
     "assets": [
@@ -372,20 +372,21 @@
     "src": "src/graphics/singleHd.ts"
   },
   "src/graphics/singleSd.css": {
-    "file": "assets/singleSd-19b9613d.css",
+    "file": "assets/singleHd-5f5ccb6e.css",
     "src": "src/graphics/singleSd.css"
   },
   "src/graphics/singleSd.ts": {
     "assets": [
+      "assets/fushi_logo2-ac0ab78f.png",
       "assets/cloud-ae69abe4.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/singleSd-19b9613d.css"
+      "assets/singleHd-5f5ccb6e.css"
     ],
-    "file": "assets/singleSd-25c362d6.js",
+    "file": "assets/singleSd-30dceb6d.js",
     "imports": [
       "_customData-8a30595c.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
