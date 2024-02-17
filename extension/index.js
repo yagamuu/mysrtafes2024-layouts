@@ -14,5 +14,4 @@ module.exports = (nodecg) => {
     require('./displaySound');
     require('./information');
     require('./startSoon');
-    require('./timekeeper');
 };
