@@ -1,71 +1,36 @@
-#container {
-  width: 1920px;
-  height: 1080px;
-  border: 16px solid rgba(25, 25, 25, 1);
-  border-bottom-width: 50px;
-}
-
 .cloud {
-  background: url(./../images/run_3/cloud.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(./../images/run_3/cloud.png) no-repeat center / contain;
   width: 1920px;
-  height: 283px;
-  top: 13px;
-  right: 0px;
+  height: 288px;
+  top: -3px;
+  right: -16px;
   z-index: 1;
   position: absolute;
 }
 
 .logo {
-  position: absolute;
-  left: 101px;
-  top: 46px;
+  left: 85px;
+  top: 30px;
   width: 211px;
   height: 223px;
-  background: url(./../images/common/fushi_logo2.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 3;
 }
 
 .kaisetsu_box {
   position: absolute;
-  left: 46px;
-  top: 292px;
-  width: 323px;
-  height: 527px;
-  background: url(./../images/run_3_pu_4x3/kaisetsu.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.logo {
-  position: absolute;
-  left: 83px;
-  top: 48px;
-  width: 193px;
-  height: 204px;
-  background: url(./../images/common/fushi_logo2.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 3;
+  left: 27px;
+  top: 277px;
+  width: 328px;
+  height: 528px;
+  background: url(./../images/run_3_pu_4x3/kaisetsu.png) no-repeat center / contain;
 }
 
 .information_box {
   position: absolute;
-  left: 16px;
-  top: 850px;
-  width: 1888px;
+  left: 0;
+  top: 832px;
+  width: 100%;
   height: 170px;
-  background: url(./../images/run_1/run_1.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./../images/run_1/run_1.png) no-repeat center / contain;
 }
 
 .movie {
@@ -73,8 +38,8 @@
   height: 815px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 29px;
-  left: 388px;
+  top: 13px;
+  left: 372px;
   z-index: 10;
 }
 
@@ -196,8 +161,8 @@
   height: 403px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 29px;
-  left: 1381px;
+  top: 13px;
+  left: 1365px;
   z-index: 10;
 }
 
@@ -206,145 +171,14 @@
   height: 403px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 441px;
-  left: 1381px;
+  top: 425px;
+  left: 1365px;
   z-index: 10;
 }
 
-.footer .right {
-  display: flex;
-  align-items: center;
-}
-
-.footer {
-  position: absolute;
-  width: 1920px;
-  height: 50px;
-  padding: 0 16px;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: rgba(255, 255, 255, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 24px;
-  line-height: 35px;
-}
-
-.footer span {
-  margin-left: 20px;
-}
-
-.x_icon {
-  width: 28px;
-  height: 28px;
-  background-image: url("./../images/common/x_icon.png");
-  background-size: contain;
-  margin-right: 2px;
-}
-
-.time {
-  width: 343px;
-  height: 138px;
-  position: absolute;
-  left: 26px;
-  top: 5px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.time .now {
-  display: inline-block;
-  height: 70px;
-  color: rgba(55, 35, 31, 1);
-  font-weight: 900;
-  font-family: "Inconsolata", monospace;
-  font-size: 70px;
-  line-height: 70px;
-  margin-bottom: 15px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-}
-
-.time .will {
-  display: flex;
-  height: 33px;
-  align-items: center;
-  height: 18px;
-  color: rgba(55, 35, 31, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 24px;
-  line-height: 24px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-}
-
-.time .will span {
-  font-family: "Inconsolata", monospace;
-  font-size: 33px;
-  line-height: 33px;
-  margin-left: 8px;
-}
-
-.title {
-  display: inline-block;
-  color: rgba(55, 35, 31, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 50px;
-  line-height: 50px;
-  width: 937px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-  position: absolute;
-  left: 440px;
-  top: 38px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  height: 100px;
-  justify-content: center;
-}
-
-.dashed_line {
-  width: 3px;
-  height: 101px;
-  background-image: url("./../images/run_1/dashed_line.png");
-  background-size: contain;
-  display: block;
-  position: absolute;
-  left: 1390px;
-  top: 40px;
-}
-
-.game_detail {
-  position: absolute;
-  display: block;
-  left: 1410px;
-  top: 60px;
-  width: 424px;
-  height: 61px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-
-  color: rgba(55, 35, 31, 1);
-  text-align: center;
-  font-size: 26px;
-  line-height: 34px;
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-}
-
-.time .now.stop_yellow {
-  color: rgba(255, 222, 48, 1);
-  text-shadow: 2.5px 2.5px 0 rgba(55, 35, 31, 1),
-    -2.5px -2.5px 0 rgba(55, 35, 31, 1), -2.5px 2.5px 0 rgba(55, 35, 31, 1),
-    2.5px -2.5px 0 rgba(55, 35, 31, 1), 0px 2.5px 0 rgba(55, 35, 31, 1),
-    0-2.5px 0 rgba(55, 35, 31, 1), -2.5px 0 0 rgba(55, 35, 31, 1),
-    2.5px 0 0 rgba(55, 35, 31, 1);
+.game_box {
+  width: 1473px;
+  height: 154px;
+  top: 14px;
+  left: 396px;
 }

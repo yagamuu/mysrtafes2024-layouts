@@ -35,5 +35,6 @@ useHead({ title: 'Unrailed' });
 
 <style>
   @import url('../css/reset.css');
+  @import url('../css/common.css');
   @import url('../css/run_unraild.css');
 </style>

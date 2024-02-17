@@ -61,5 +61,6 @@ useHead({ title: 'TripleHDPickup' });
 
 <style>
   @import url('../css/reset.css');
+  @import url('../css/common.css');
   @import url('../css/run_3_pu.css');
 </style>

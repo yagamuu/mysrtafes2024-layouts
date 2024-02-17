@@ -1,58 +1,20 @@
-#container {
-  width: 1920px;
-  height: 1080px;
-  border: 16px solid rgba(25, 25, 25, 1);
-  border-bottom-width: 50px;
-}
-
 .cloud {
-  background: url(./../images/run_3/cloud.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(./../images/run_3/cloud.png) no-repeat center / contain;
   width: 1920px;
   height: 283px;
-  top: 13px;
-  right: 0px;
+  top: -3px;
+  right: -16px;
   z-index: 1;
   position: absolute;
 }
 
-.logo {
-  position: absolute;
-  width: 193px;
-  height: 204px;
-  left: 116px;
-  top: 18px;
-  background: url(./../images/common/fushi_logo2.png);
-  background-size: cover;
-  background-repeat: no-repeat;
-  z-index: 5;
-}
-
-.logo {
-  position: absolute;
-  left: 72px;
-  top: 57px;
-  width: 231px;
-  height: 244px;
-  background: url(./../images/common/fushi_logo2.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  z-index: 3;
-}
-
 .information_box {
   position: absolute;
-  left: 31px;
-  top: 0px;
-  width: 346px;
-  height: 622.9px;
-  background: url(./../images/run_3_bingo/run_3.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  left: 7px;
+  top: -15px;
+  width: 356px;
+  height: 641px;
+  background: url(./../images/run_3_bingo/run_3.png) no-repeat center / contain;
   z-index: 3;
 }
 
@@ -61,33 +23,27 @@
   height: 462px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 78px;
-  left: 406px;
+  top: 62px;
+  left: 390px;
   z-index: 10;
 }
 
 .bingo-sheet {
   width: 737px;
   height: 354px;
-  top: 132px;
-  left: 1156px;
-  background: url(./../images/run_3_bingo/bingo_back.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  top: 116px;
+  left: 1141px;
+  background: url(./../images/run_3_bingo/bingo_back.png) no-repeat center / contain;
   position: absolute;
   z-index: 3;
 }
 
 .kaisetsu_box {
-  width: 346px;
-  height: 357.9px;
-  top: 655px;
-  left: 34px;
-  background: url(./../images/run_3_bingo/kaisetsu.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  width: 351px;
+  height: 361px;
+  top: 639px;
+  left: 13px;
+  background: url(./../images/run_3_bingo/kaisetsu.png) no-repeat center / contain;
   position: absolute;
 }
 
@@ -134,13 +90,10 @@
 }
 
 .movie_footer .player_time.stop_blown .flag {
-  background: url(./../images/run_2/flag.png);
   width: 44px;
   height: 25.5px;
   display: block;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./../images/run_2/flag.png) no-repeat center / contain;
 }
 
 .movie2 {
@@ -148,8 +101,8 @@
   height: 462px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 553px;
-  left: 406px;
+  top: 537px;
+  left: 390px;
   z-index: 10;
 }
 
@@ -158,133 +111,33 @@
   height: 462px;
   background-color: rebeccapurple;
   position: absolute;
-  top: 553px;
-  left: 1156px;
+  top: 537px;
+  left: 1140px;
   z-index: 10;
 }
 
-.footer .right {
-  display: flex;
-  align-items: center;
-}
-
-.footer {
-  position: absolute;
-  width: 1920px;
-  height: 50px;
-  padding: 0 16px;
-  bottom: 0;
-  left: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  color: rgba(255, 255, 255, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 24px;
-  line-height: 35px;
-}
-
-.footer span {
-  margin-left: 20px;
-}
-
-.x_icon {
-  width: 28px;
-  height: 28px;
-  background-image: url("./../images/common/x_icon.png");
-  background-size: contain;
-  margin-right: 2px;
-}
-
-.time {
-  width: 314px;
-  height: 158px;
-  position: absolute;
-  left: 21px;
-  top: 463px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 10px;
-}
-
-.time .now {
-  display: inline-block;
-  height: 70px;
-  color: rgba(55, 35, 31, 1);
-  font-weight: 900;
-  font-family: "Inconsolata", monospace;
-  font-size: 70px;
-  line-height: 70px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-  margin-bottom: 10px;
-}
-
-.time .will {
-  display: flex;
-  height: 33px;
-  align-items: center;
-  color: rgba(55, 35, 31, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
-  font-size: 24px;
-  line-height: 24px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-}
-
-.time .will span {
-  font-family: "Inconsolata", monospace;
-  font-size: 33px;
-  line-height: 33px;
-  margin-left: 10px;
-}
-
 .title {
-  display: inline-block;
-  color: rgba(55, 35, 31, 1);
-  font-weight: 900;
-  font-family: "M PLUS 1", sans-serif;
+  width: 315px;
   font-size: 46px;
-  line-height: 50.6px;
-  width: 291px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
   position: absolute;
-  text-align: center;
-  left: 35px;
-  top: 188px;
-  display: flex;
-  align-items: center;
-  height: 152px;
-  justify-content: center;
+  top: 202px;
+  left: 23px;
+  line-height: 1.1;
+}
+
+.dashed_line {
+  display: none;
 }
 
 .game_detail {
   position: absolute;
-  display: block;
-  left: 36px;
-  top: 378px;
-  width: 291px;
-  height: 61px;
-  text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
-  color: rgba(55, 35, 31, 1);
-  text-align: center;
-  font-size: 26px;
-  line-height: 34px;
-  font-weight: 800;
-  font-family: "M PLUS 1", sans-serif;
+  top: 385px;
+  left: 23px;
+  width: 315px;
 }
 
-.time .now.stop_yellow {
-  color: rgba(255, 222, 48, 1);
-  text-shadow: 2.5px 2.5px 0 rgba(55, 35, 31, 1),
-    -2.5px -2.5px 0 rgba(55, 35, 31, 1), -2.5px 2.5px 0 rgba(55, 35, 31, 1),
-    2.5px -2.5px 0 rgba(55, 35, 31, 1), 0px 2.5px 0 rgba(55, 35, 31, 1),
-    0-2.5px 0 rgba(55, 35, 31, 1), -2.5px 0 0 rgba(55, 35, 31, 1),
-    2.5px 0 0 rgba(55, 35, 31, 1);
+.time {
+  position: absolute;
+  left: 13px;
+  top: 500px;
 }

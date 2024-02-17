@@ -44,5 +44,6 @@ useHead({ title: 'SingleDS' });
 
 <style>
   @import url('../css/reset.css');
+  @import url('../css/common.css');
   @import url('../css/run_1_ds.css');
 </style>

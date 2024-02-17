@@ -50,5 +50,6 @@ useHead({ title: 'DoubleHD' });
 
 <style>
   @import url('../css/reset.css');
+  @import url('../css/common.css');
   @import url('../css/run_2.css');
 </style>
