@@ -25,7 +25,7 @@ const displaySetupInformation = ref(0);
 setInterval(() => {
   const length = setupInformationArray?.data?.length || 0;
   displaySetupInformation.value = (displaySetupInformation.value + 1) % length;
-}, 30000);
+}, 20000);
 
 </script>
 
