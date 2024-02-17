@@ -12,8 +12,8 @@
       "_displaySound-1d8077e8.js"
     ]
   },
-  "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js": {
-    "file": "assets/TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+  "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js": {
+    "file": "assets/TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
     "imports": [
       "_customData-8a30595c.js"
     ]
@@ -139,25 +139,25 @@
     "src": "src/dashboard/startSoon.ts"
   },
   "src/graphics/doubleHd.css": {
-    "file": "assets/doubleHd-34b61f96.css",
+    "file": "assets/doubleHd-5bbac156.css",
     "src": "src/graphics/doubleHd.css"
   },
   "src/graphics/doubleHd.ts": {
     "assets": [
-      "assets/cloud-15dc1a47.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-15dc1a47.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
       "assets/run_2_header-15a62283.png",
       "assets/run_2-c1e04fba.png"
     ],
     "css": [
-      "assets/doubleHd-34b61f96.css"
+      "assets/doubleHd-5bbac156.css"
     ],
-    "file": "assets/doubleHd-428c7698.js",
+    "file": "assets/doubleHd-661708b5.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js",
       "_RunnerNameplate.vue_vue_type_script_setup_true_lang-281f0a01.js",
       "_displaySound-1d8077e8.js"
@@ -166,25 +166,25 @@
     "src": "src/graphics/doubleHd.ts"
   },
   "src/graphics/doubleSd.css": {
-    "file": "assets/doubleSd-5d27ea50.css",
+    "file": "assets/doubleSd-9802b769.css",
     "src": "src/graphics/doubleSd.css"
   },
   "src/graphics/doubleSd.ts": {
     "assets": [
-      "assets/cloud-fd66a325.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-fd66a325.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
-      "assets/run_2_header-8cfb0906.png",
+      "assets/run_2_header-6e822bf5.png",
       "assets/run_2-70a517fa.png"
     ],
     "css": [
-      "assets/doubleSd-5d27ea50.css"
+      "assets/doubleSd-9802b769.css"
     ],
-    "file": "assets/doubleSd-f3150d1e.js",
+    "file": "assets/doubleSd-98daea2e.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js",
       "_RunnerNameplate.vue_vue_type_script_setup_true_lang-281f0a01.js",
       "_displaySound-1d8077e8.js"
@@ -245,7 +245,7 @@
     "src": "src/graphics/images/run_2_4x3/run_2.png"
   },
   "src/graphics/images/run_2_4x3/run_2_header.png": {
-    "file": "assets/run_2_header-8cfb0906.png",
+    "file": "assets/run_2_header-6e822bf5.png",
     "src": "src/graphics/images/run_2_4x3/run_2_header.png"
   },
   "src/graphics/images/run_3/cloud.png": {
@@ -324,95 +324,94 @@
     "src": "src/graphics/setup.ts"
   },
   "src/graphics/singleDs.css": {
-    "file": "assets/singleDs-c2a6f291.css",
+    "file": "assets/singleDs-11e22210.css",
     "src": "src/graphics/singleDs.css"
   },
   "src/graphics/singleDs.ts": {
     "assets": [
-      "assets/cloud-ae69abe4.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-ae69abe4.png",
       "assets/video-c1f4d816.png",
       "assets/kaisetsu-88ed5e07.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/singleDs-c2a6f291.css"
+      "assets/singleDs-11e22210.css"
     ],
-    "file": "assets/singleDs-6989a8ef.js",
+    "file": "assets/singleDs-4fba5e9f.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js"
     ],
     "isEntry": true,
     "src": "src/graphics/singleDs.ts"
   },
   "src/graphics/singleHd.css": {
-    "file": "assets/singleHd-a63513ee.css",
-    "src": "src/graphics/singleSd.css"
+    "file": "assets/singleHd-5f5ccb6e.css",
+    "src": "src/graphics/singleHd.css"
   },
   "src/graphics/singleHd.ts": {
     "assets": [
-      "assets/cloud-ae69abe4.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-ae69abe4.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/singleHd-a63513ee.css"
+      "assets/singleHd-5f5ccb6e.css"
     ],
-    "file": "assets/singleHd-601a59f3.js",
+    "file": "assets/singleHd-f8033833.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js"
     ],
     "isEntry": true,
     "src": "src/graphics/singleHd.ts"
   },
   "src/graphics/singleSd.css": {
-    "file": "assets/singleHd-a63513ee.css",
+    "file": "assets/singleSd-19b9613d.css",
     "src": "src/graphics/singleSd.css"
   },
   "src/graphics/singleSd.ts": {
     "assets": [
       "assets/cloud-ae69abe4.png",
-      "assets/fushi_logo2-ac0ab78f.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/singleHd-a63513ee.css"
+      "assets/singleSd-19b9613d.css"
     ],
-    "file": "assets/singleSd-dcd298b8.js",
+    "file": "assets/singleSd-25c362d6.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js"
     ],
     "isEntry": true,
     "src": "src/graphics/singleSd.ts"
   },
   "src/graphics/tripleHd.css": {
-    "file": "assets/tripleHd-1e7b29e5.css",
+    "file": "assets/tripleHd-ab22e8ed.css",
     "src": "src/graphics/tripleHd.css"
   },
   "src/graphics/tripleHd.ts": {
     "assets": [
-      "assets/cloud-78ebcad4.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-78ebcad4.png",
       "assets/kaisetsu-a84272e3.png",
       "assets/run_3-790926a5.png"
     ],
     "css": [
-      "assets/tripleHd-1e7b29e5.css"
+      "assets/tripleHd-ab22e8ed.css"
     ],
-    "file": "assets/tripleHd-03a14e55.js",
+    "file": "assets/tripleHd-fdc2c8cf.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js",
       "_RunnerNameplate.vue_vue_type_script_setup_true_lang-281f0a01.js",
       "_displaySound-1d8077e8.js"
@@ -421,24 +420,24 @@
     "src": "src/graphics/tripleHd.ts"
   },
   "src/graphics/tripleHdBingo.css": {
-    "file": "assets/tripleHdBingo-4c8ea151.css",
+    "file": "assets/tripleHdBingo-c1fe7151.css",
     "src": "src/graphics/tripleHdBingo.css"
   },
   "src/graphics/tripleHdBingo.ts": {
     "assets": [
-      "assets/cloud-78ebcad4.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-78ebcad4.png",
       "assets/run_3-bd6b3782.png",
       "assets/bingo_back-bf7aac31.png",
       "assets/kaisetsu-403e7dc5.png"
     ],
     "css": [
-      "assets/tripleHdBingo-4c8ea151.css"
+      "assets/tripleHdBingo-c1fe7151.css"
     ],
-    "file": "assets/tripleHdBingo-bfab0706.js",
+    "file": "assets/tripleHdBingo-0d2ccadb.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js",
       "_RunnerNameplate.vue_vue_type_script_setup_true_lang-281f0a01.js",
       "_displaySound-1d8077e8.js"
@@ -447,23 +446,23 @@
     "src": "src/graphics/tripleHdBingo.ts"
   },
   "src/graphics/tripleHdPickup.css": {
-    "file": "assets/tripleHdPickup-62474dfb.css",
+    "file": "assets/tripleHdPickup-32b9f764.css",
     "src": "src/graphics/tripleHdPickup.css"
   },
   "src/graphics/tripleHdPickup.ts": {
     "assets": [
-      "assets/cloud-78ebcad4.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-78ebcad4.png",
       "assets/kaisetsu-e25564ac.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/tripleHdPickup-62474dfb.css"
+      "assets/tripleHdPickup-32b9f764.css"
     ],
-    "file": "assets/tripleHdPickup-4ce5f7db.js",
+    "file": "assets/tripleHdPickup-8200b3f4.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js",
       "_RunnerNameplate.vue_vue_type_script_setup_true_lang-281f0a01.js",
       "_displaySound-1d8077e8.js"
@@ -472,23 +471,23 @@
     "src": "src/graphics/tripleHdPickup.ts"
   },
   "src/graphics/tripleSd.css": {
-    "file": "assets/tripleSd-53d121df.css",
+    "file": "assets/tripleSd-531cf3e1.css",
     "src": "src/graphics/tripleSd.css"
   },
   "src/graphics/tripleSd.ts": {
     "assets": [
-      "assets/cloud-78ebcad4.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-78ebcad4.png",
       "assets/kaisetsu-f6ffeb04.png",
       "assets/run_3-790926a5.png"
     ],
     "css": [
-      "assets/tripleSd-53d121df.css"
+      "assets/tripleSd-531cf3e1.css"
     ],
-    "file": "assets/tripleSd-c0dd0a68.js",
+    "file": "assets/tripleSd-90fb6ebe.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js",
       "_RunnerNameplate.vue_vue_type_script_setup_true_lang-281f0a01.js",
       "_displaySound-1d8077e8.js"
@@ -497,24 +496,24 @@
     "src": "src/graphics/tripleSd.ts"
   },
   "src/graphics/tripleSdBingo.css": {
-    "file": "assets/tripleSdBingo-384c5e18.css",
+    "file": "assets/tripleSdBingo-ec30d27f.css",
     "src": "src/graphics/tripleSdBingo.css"
   },
   "src/graphics/tripleSdBingo.ts": {
     "assets": [
-      "assets/cloud-78ebcad4.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-78ebcad4.png",
       "assets/run_3-a5b3db75.png",
       "assets/bingo_back-bf7aac31.png",
       "assets/kaisetsu-d232a971.png"
     ],
     "css": [
-      "assets/tripleSdBingo-384c5e18.css"
+      "assets/tripleSdBingo-ec30d27f.css"
     ],
-    "file": "assets/tripleSdBingo-58162956.js",
+    "file": "assets/tripleSdBingo-b3d9e2a4.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js",
       "_RunnerNameplate.vue_vue_type_script_setup_true_lang-281f0a01.js",
       "_displaySound-1d8077e8.js"
@@ -523,23 +522,23 @@
     "src": "src/graphics/tripleSdBingo.ts"
   },
   "src/graphics/tripleSdPickup.css": {
-    "file": "assets/tripleSdPickup-fc0401a8.css",
+    "file": "assets/tripleSdPickup-19750277.css",
     "src": "src/graphics/tripleSdPickup.css"
   },
   "src/graphics/tripleSdPickup.ts": {
     "assets": [
-      "assets/cloud-78ebcad4.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-78ebcad4.png",
       "assets/kaisetsu-899b9786.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/tripleSdPickup-fc0401a8.css"
+      "assets/tripleSdPickup-19750277.css"
     ],
-    "file": "assets/tripleSdPickup-74210fb7.js",
+    "file": "assets/tripleSdPickup-0bb8b39a.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js",
       "_RunnerNameplate.vue_vue_type_script_setup_true_lang-281f0a01.js",
       "_displaySound-1d8077e8.js"
@@ -548,25 +547,25 @@
     "src": "src/graphics/tripleSdPickup.ts"
   },
   "src/graphics/unrailed.css": {
-    "file": "assets/unrailed-d8b1d06d.css",
+    "file": "assets/unrailed-cba30946.css",
     "src": "src/graphics/unrailed.css"
   },
   "src/graphics/unrailed.ts": {
     "assets": [
-      "assets/cloud-15dc1a47.png",
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/cloud-15dc1a47.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
       "assets/run_2_header-15a62283.png",
       "assets/run_2-c1e04fba.png"
     ],
     "css": [
-      "assets/unrailed-d8b1d06d.css"
+      "assets/unrailed-cba30946.css"
     ],
-    "file": "assets/unrailed-71f7d746.js",
+    "file": "assets/unrailed-6d1f713b.js",
     "imports": [
       "_customData-8a30595c.js",
-      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-4239d1e3.js",
+      "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-8f22515b.js",
       "_BaseOverlay.vue_vue_type_script_setup_true_lang-da747078.js"
     ],
     "isEntry": true,
