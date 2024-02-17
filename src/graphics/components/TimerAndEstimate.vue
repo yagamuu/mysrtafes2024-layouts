@@ -1,17 +1,14 @@
 <!-- eslint-disable max-len -->
 <script setup lang="ts">
 import { computed } from 'vue';
-import { useRunData, useTimer, useTimekeeping, useCustomData } from '@mysrtafes2024-layouts/composable';
+import { useRunData, useTimer, useCustomData } from '@mysrtafes2024-layouts/composable';
 
-const { estimate } = useRunData();
-const { isChallenge } = useCustomData();
+const { estimate, estimateS } = useRunData();
+const { isChallenge, challengeTime } = useCustomData();
 
-const { time, runState } = useTimer();
-
-const { time: challengeTime, status, hasHistory, latestHistorytime } = useTimekeeping();
+const { time, runState, timer } = useTimer();
 
 const timerStateClass = computed(() => {
-  const state = isChallenge.value ? status : runState;
   /*
   if (runState.value === 'paused') {
     return 'pause';
@@ -20,18 +17,15 @@ const timerStateClass = computed(() => {
     return 'forfeit';
   }
   */
-  if (state.value === 'finished' && (!isChallenge.value || hasHistory.value)) {
+  if (runState.value === 'finished') {
     return 'stop_yellow';
   }
   return '';
 });
 
-const timer = computed(() => {
-  if (!isChallenge.value) {
+const timerText = computed(() => {
+  if (!isChallenge.value || !timer?.data) {
     return time.value;
-  }
-  if (hasHistory.value) {
-    return latestHistorytime.value;
   }
   return challengeTime.value;
 });
@@ -41,7 +35,7 @@ const timer = computed(() => {
 <template>
   <div class="time">
     <div :class="[timerStateClass, 'now']">
-      {{ timer }}
+      {{ timerText }}
     </div>
     <div class="will">予定タイム<span>{{ estimate }}</span></div>
   </div>

@@ -12,7 +12,6 @@ docker compose up
 - [NodeCG](https://github.com/nodecg/nodecg): Main framework.
 - [nodecg-speedcontrol](https://github.com/speedcontrol/nodecg-speedcontrol): NodeCG bundle for broadcast graphics framework/application.
 - [nodecg-vue-ts-template](https://github.com/zoton2/nodecg-vue-ts-template): Template for NodeCG bundles that use Vue.js and TypeScript.
-- [nodecg-timekeeper](https://github.com/cma2819/nodecg-timekeeper): NodeCG layout bundle for timekeeping.
 - [nodecg-spotify-widget](https://github.com/cma2819/nodecg-spotify-widget): NodeCG layout bundle for showing spotify information.
 - [Icarus](https://twitter.com/UranosTubasaPMD): Marathon official mascot design.
 - [bear](https://twitter.com/bearfaust0123): HTML/CSS coding.

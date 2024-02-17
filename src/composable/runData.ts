@@ -72,6 +72,8 @@ export function useRunData() {
     return util.formatSeconds(estimateS);
   });
 
+  const estimateS = computed(() => runDataActiveRun?.data?.estimateS ?? 0);
+
   return {
     runDataActiveRun,
     players,
@@ -84,5 +86,6 @@ export function useRunData() {
     runSystem,
     runRelease,
     estimate,
+    estimateS,
   }
 }

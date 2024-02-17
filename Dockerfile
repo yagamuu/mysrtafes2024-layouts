@@ -9,8 +9,7 @@ RUN apt-get update && \
   apt-get install -y make gcc g++ python3
 
 RUN nodecg install yagamuu/nodecg-speedcontrol --dev && \
-  nodecg install yagamuu/nodecg-spotify-widget && \
-  nodecg install cma2819/nodecg-timekeeper
+  nodecg install yagamuu/nodecg-spotify-widget
 
 WORKDIR /opt/nodecg/bundles/nodecg-speedcontrol
 RUN npm run build
