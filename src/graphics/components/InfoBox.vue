@@ -7,7 +7,7 @@ const { runTitle, runCategory, runSystem, runRelease } = useRunData();
 </script>
 
 <template>
-  <div class="game_box -horizontal">
+  <div class="game_box">
     <div class="title">
       {{ runTitle }}
     </div>
