@@ -1,6 +1,6 @@
 <!-- eslint-disable max-len -->
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue';
+import { ref, computed, onMounted, watchEffect } from 'vue';
 import type { RunData } from '@mysrtafes2024-layouts/types/schemas/speedcontrol';
 import { useSetupInformation } from '@mysrtafes2024-layouts/composable';
 
@@ -31,43 +31,40 @@ setInterval(() => {
  * タイトル文字改行切り替え対応
  */
 const titleClass = ref('');
-let observer: ResizeObserver | null = null;
-// クラス変更フラグ
-let isChangingClass = false;
+const titleDom = ref<HTMLDivElement | null>(null);
+const changedTitleClass = ref<Boolean>(false);
 
-// props.runData の変化を監視
-watch(() => props.runData, (newVal, oldVal) => {
-  const titleElement = document.querySelector('.title');
-  titleClass.value = '';
-
-  if (titleElement && newVal !== oldVal) {
-    if (observer) observer.disconnect(); // 前回の監視を停止
-
-    // 新たに監視を開始
-    observer = new ResizeObserver((entries) => {
-      entries.forEach((entry) => {
-        if (entry.target === titleElement) {
-          if (isChangingClass) {
-            isChangingClass = false;
-          } else if (entry.contentRect.height > 180) {
-            isChangingClass = true;
-            titleClass.value = '-isLong';
-          } else {
-            titleClass.value = '';
-          }
-        }
-      });
+onMounted(() => {
+  const observer = new ResizeObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.target !== titleDom.value || changedTitleClass.value) {
+        return;
+      }
+      if (entry.contentRect.height > 180) {
+        changedTitleClass.value = true;
+        titleClass.value = '-isLong';
+      }
     });
+  });
 
-    observer.observe(titleElement);
+  if (titleDom.value) {
+    observer.observe(titleDom.value);
   }
+});
+
+watchEffect(() => {
+  if (!props.runData?.game) {
+    return;
+  }
+  titleClass.value = '';
+  changedTitleClass.value = false;
 });
 </script>
 
 <template>
   <div class="setup_box_1">
     <div class="title_box">
-      <span class="title" :class="titleClass">
+      <span class="title" :class="titleClass" ref="titleDom">
         {{ runData?.game }}
       </span>
         <span class="runner">
