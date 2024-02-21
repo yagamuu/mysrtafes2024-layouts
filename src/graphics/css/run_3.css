@@ -1,8 +1,5 @@
 .cloud {
-  background: url(./../images/run_3/cloud.png);
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+  background: url(./../images/run_3/cloud.png) no-repeat center / contain;
   width: 1920px;
   height: 283px;
   top: -3px;
@@ -35,10 +32,7 @@
   top: 19px;
   width: 736px;
   height: 477.68px;
-  background: url(./../images/run_3/run_3.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  background: url(./../images/run_3/run_3.png) no-repeat center / contain;
   z-index: 4;
 }
 
@@ -172,6 +166,11 @@
 
 .title {
   flex-grow: 0;
+  font-size: 52px;
+}
+
+.category {
+  font-size: 30px;
 }
 
 .dashed_line {
@@ -187,4 +186,8 @@
 
 .game_detail {
   max-width: 100%;
+}
+
+.game_box {
+  gap: 18px;
 }
