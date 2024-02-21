@@ -139,12 +139,13 @@
     "src": "src/dashboard/startSoon.ts"
   },
   "src/graphics/doubleHd.css": {
-    "file": "assets/doubleHd-5bbac156.css",
+    "file": "assets/doubleHd-7892a48a.css",
     "src": "src/graphics/doubleHd.css"
   },
   "src/graphics/doubleHd.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-15dc1a47.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
@@ -152,9 +153,9 @@
       "assets/run_2-c1e04fba.png"
     ],
     "css": [
-      "assets/doubleHd-5bbac156.css"
+      "assets/doubleHd-7892a48a.css"
     ],
-    "file": "assets/doubleHd-cc9159e8.js",
+    "file": "assets/doubleHd-d51fcf56.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -166,12 +167,13 @@
     "src": "src/graphics/doubleHd.ts"
   },
   "src/graphics/doubleSd.css": {
-    "file": "assets/doubleSd-9802b769.css",
+    "file": "assets/doubleSd-f2d02508.css",
     "src": "src/graphics/doubleSd.css"
   },
   "src/graphics/doubleSd.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-fd66a325.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
@@ -179,9 +181,9 @@
       "assets/run_2-70a517fa.png"
     ],
     "css": [
-      "assets/doubleSd-9802b769.css"
+      "assets/doubleSd-f2d02508.css"
     ],
-    "file": "assets/doubleSd-29aadb84.js",
+    "file": "assets/doubleSd-8c0ca7c2.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -203,6 +205,10 @@
   "src/graphics/images/common/fushi_logo2.png": {
     "file": "assets/fushi_logo2-ac0ab78f.png",
     "src": "src/graphics/images/common/fushi_logo2.png"
+  },
+  "src/graphics/images/common/speaker.svg": {
+    "file": "assets/speaker-c03307c8.svg",
+    "src": "src/graphics/images/common/speaker.svg"
   },
   "src/graphics/images/run_1/kaisetsu.png": {
     "file": "assets/kaisetsu-88655cdc.png",
@@ -324,21 +330,22 @@
     "src": "src/graphics/setup.ts"
   },
   "src/graphics/singleDs.css": {
-    "file": "assets/singleDs-11e22210.css",
+    "file": "assets/singleDs-5702e17f.css",
     "src": "src/graphics/singleDs.css"
   },
   "src/graphics/singleDs.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-ae69abe4.png",
       "assets/video-c1f4d816.png",
       "assets/kaisetsu-88ed5e07.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/singleDs-11e22210.css"
+      "assets/singleDs-5702e17f.css"
     ],
-    "file": "assets/singleDs-d9f8f612.js",
+    "file": "assets/singleDs-ce49e732.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -348,21 +355,22 @@
     "src": "src/graphics/singleDs.ts"
   },
   "src/graphics/singleHd.css": {
-    "file": "assets/singleHd-5f5ccb6e.css",
+    "file": "assets/singleHd-a4cd79c2.css",
     "src": "src/graphics/singleSd.css"
   },
   "src/graphics/singleHd.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-ae69abe4.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/singleHd-5f5ccb6e.css"
+      "assets/singleHd-a4cd79c2.css"
     ],
-    "file": "assets/singleHd-61b56beb.js",
+    "file": "assets/singleHd-16d237db.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -372,21 +380,22 @@
     "src": "src/graphics/singleHd.ts"
   },
   "src/graphics/singleSd.css": {
-    "file": "assets/singleHd-5f5ccb6e.css",
+    "file": "assets/singleHd-a4cd79c2.css",
     "src": "src/graphics/singleSd.css"
   },
   "src/graphics/singleSd.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-ae69abe4.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/singleHd-5f5ccb6e.css"
+      "assets/singleHd-a4cd79c2.css"
     ],
-    "file": "assets/singleSd-5930826f.js",
+    "file": "assets/singleSd-2af6825a.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -396,20 +405,21 @@
     "src": "src/graphics/singleSd.ts"
   },
   "src/graphics/tripleHd.css": {
-    "file": "assets/tripleHd-ab22e8ed.css",
+    "file": "assets/tripleHd-34f1ca9a.css",
     "src": "src/graphics/tripleHd.css"
   },
   "src/graphics/tripleHd.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-78ebcad4.png",
       "assets/kaisetsu-a84272e3.png",
       "assets/run_3-790926a5.png"
     ],
     "css": [
-      "assets/tripleHd-ab22e8ed.css"
+      "assets/tripleHd-34f1ca9a.css"
     ],
-    "file": "assets/tripleHd-a4c658c2.js",
+    "file": "assets/tripleHd-a44d62ac.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -421,21 +431,22 @@
     "src": "src/graphics/tripleHd.ts"
   },
   "src/graphics/tripleHdBingo.css": {
-    "file": "assets/tripleHdBingo-c1fe7151.css",
+    "file": "assets/tripleHdBingo-db6886e0.css",
     "src": "src/graphics/tripleHdBingo.css"
   },
   "src/graphics/tripleHdBingo.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-78ebcad4.png",
       "assets/run_3-bd6b3782.png",
       "assets/bingo_back-bf7aac31.png",
       "assets/kaisetsu-403e7dc5.png"
     ],
     "css": [
-      "assets/tripleHdBingo-c1fe7151.css"
+      "assets/tripleHdBingo-db6886e0.css"
     ],
-    "file": "assets/tripleHdBingo-5a73e09d.js",
+    "file": "assets/tripleHdBingo-15c5cf0d.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -447,20 +458,21 @@
     "src": "src/graphics/tripleHdBingo.ts"
   },
   "src/graphics/tripleHdPickup.css": {
-    "file": "assets/tripleHdPickup-32b9f764.css",
+    "file": "assets/tripleHdPickup-8947e87d.css",
     "src": "src/graphics/tripleHdPickup.css"
   },
   "src/graphics/tripleHdPickup.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-78ebcad4.png",
       "assets/kaisetsu-e25564ac.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/tripleHdPickup-32b9f764.css"
+      "assets/tripleHdPickup-8947e87d.css"
     ],
-    "file": "assets/tripleHdPickup-987f4aaf.js",
+    "file": "assets/tripleHdPickup-f8f89b3c.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -472,20 +484,21 @@
     "src": "src/graphics/tripleHdPickup.ts"
   },
   "src/graphics/tripleSd.css": {
-    "file": "assets/tripleSd-531cf3e1.css",
+    "file": "assets/tripleSd-1c66f8e0.css",
     "src": "src/graphics/tripleSd.css"
   },
   "src/graphics/tripleSd.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-78ebcad4.png",
       "assets/kaisetsu-f6ffeb04.png",
       "assets/run_3-790926a5.png"
     ],
     "css": [
-      "assets/tripleSd-531cf3e1.css"
+      "assets/tripleSd-1c66f8e0.css"
     ],
-    "file": "assets/tripleSd-2960b4a4.js",
+    "file": "assets/tripleSd-cdb5d576.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -497,21 +510,22 @@
     "src": "src/graphics/tripleSd.ts"
   },
   "src/graphics/tripleSdBingo.css": {
-    "file": "assets/tripleSdBingo-ec30d27f.css",
+    "file": "assets/tripleSdBingo-88736ffe.css",
     "src": "src/graphics/tripleSdBingo.css"
   },
   "src/graphics/tripleSdBingo.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-78ebcad4.png",
       "assets/run_3-a5b3db75.png",
       "assets/bingo_back-bf7aac31.png",
       "assets/kaisetsu-d232a971.png"
     ],
     "css": [
-      "assets/tripleSdBingo-ec30d27f.css"
+      "assets/tripleSdBingo-88736ffe.css"
     ],
-    "file": "assets/tripleSdBingo-3d3c554e.js",
+    "file": "assets/tripleSdBingo-9eb86900.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -523,20 +537,21 @@
     "src": "src/graphics/tripleSdBingo.ts"
   },
   "src/graphics/tripleSdPickup.css": {
-    "file": "assets/tripleSdPickup-19750277.css",
+    "file": "assets/tripleSdPickup-c600738a.css",
     "src": "src/graphics/tripleSdPickup.css"
   },
   "src/graphics/tripleSdPickup.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-78ebcad4.png",
       "assets/kaisetsu-899b9786.png",
       "assets/run_1-cf84c9c3.png"
     ],
     "css": [
-      "assets/tripleSdPickup-19750277.css"
+      "assets/tripleSdPickup-c600738a.css"
     ],
-    "file": "assets/tripleSdPickup-03542a2c.js",
+    "file": "assets/tripleSdPickup-46e5a39a.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
@@ -548,12 +563,13 @@
     "src": "src/graphics/tripleSdPickup.ts"
   },
   "src/graphics/unrailed.css": {
-    "file": "assets/unrailed-cba30946.css",
+    "file": "assets/unrailed-778db5b1.css",
     "src": "src/graphics/unrailed.css"
   },
   "src/graphics/unrailed.ts": {
     "assets": [
       "assets/fushi_logo2-ac0ab78f.png",
+      "assets/speaker-c03307c8.svg",
       "assets/cloud-15dc1a47.png",
       "assets/video-e295fdb7.png",
       "assets/kaisetsu-88655cdc.png",
@@ -561,9 +577,9 @@
       "assets/run_2-c1e04fba.png"
     ],
     "css": [
-      "assets/unrailed-cba30946.css"
+      "assets/unrailed-778db5b1.css"
     ],
-    "file": "assets/unrailed-08c5385a.js",
+    "file": "assets/unrailed-558cb415.js",
     "imports": [
       "_customData-5188b2bf.js",
       "_TimerAndEstimate.vue_vue_type_script_setup_true_lang-71b82513.js",
