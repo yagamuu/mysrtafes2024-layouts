@@ -9,69 +9,65 @@
   position: absolute;
   width: 237px;
   height: 237px;
-  left: 77px;
+  left: 86px;
   top: 80px;
-  background: url(./../images/common/fushi_logo.png);
-  background-size: contain;
-  background-repeat: no-repeat;
+  background: url(./../images/common/fushi_logo.png) no-repeat center / contain;
+}
+
+.runner {
+  overflow-wrap: anywhere;
+  word-break: keep-all;
 }
 
 .setup_box_1 {
   position: absolute;
-  left: 506px;
+  left: 504px;
   top: 123px;
-  width: 1249px;
-  height: 332px;
+  width: 1260px;
+  height: 335px;
   background: url(./../images/setup/setup_first.png);
   background-size: contain;
-}
-
-.setup_box_2 {
-  position: absolute;
-  left: 935px;
-  top: 449px;
-  width: 820px;
-  height: 269px;
-  background: url(./../images/setup/setup_second.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-.setup_box_3 {
-  position: absolute;
-  left: 935px;
-  top: 644px;
-  width: 820px;
-  height: 269px;
-  background: url(./../images/setup/setup_second.png);
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  padding: 24px 32px 22px 41px;
+  gap: 32px;
 }
 
 .detail span {
   opacity: 0;
-  transition: 1s;
+  transition: .8s;
   position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(24px);
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 .detail span.active {
   opacity: 1;
+  transform: translateX(0px);
+}
+
+.setup_box_1 .title_box {
+  flex: 0 0 611px;
 }
 
 .setup_box_1 .title {
   font-size: 48px;
-  line-height: 60px;
+  line-height: 1.25;
   color: rgba(255, 255, 255, 1);
   font-weight: 900;
   font-family: "M PLUS 1", sans-serif;
-  width: 611px;
-  height: 180px;
+  width: 100%;
   display: block;
-  position: absolute;
-  left: 40px;
-  top: 30px;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
+}
+
+.setup_box_1 .title.-isLong {
+  word-break: normal;
 }
 
 .setup_box_1 .runner {
@@ -80,12 +76,13 @@
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
   font-family: "M PLUS 1", sans-serif;
-  width: 611px;
-  height: 180px;
+  /*width: 611px;*/
+  /*height: 180px;*/
   display: block;
-  position: absolute;
+  /*position: absolute;*/
   left: 40px;
   top: 220px;
+  margin-top: 12px;
 }
 
 .setup_box_1 .detail {
@@ -94,42 +91,57 @@
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
   font-family: "M PLUS 1", sans-serif;
-  width: 541px;
-  height: 280px;
   display: block;
+  flex: 1 0 541px;
+  height: 100%;
+  position: relative;
+}
+
+
+.setup_box_2,
+.setup_box_3 {
   position: absolute;
-  left: 680px;
-  top: 30px;
+  left: 943px;
+  width: 820px;
+  height: 175px;
+  background: url(./../images/setup/setup_second.png) no-repeat center / contain;
+  display: flex;
+  align-items: center;
+}
+
+.setup_box_2 {
+  top: 487px;
+}
+
+.setup_box_3 {
+  top: 680px;
+}
+
+.next_title {
+  padding-left: 230px;
 }
 
 .setup_box_2 .title,
 .setup_box_3 .title {
   font-size: 30px;
-  line-height: 37px;
+  line-height: 1.25;
   color: rgba(255, 255, 255, 1);
   font-weight: 900;
   font-family: "M PLUS 1", sans-serif;
-  width: 572px;
-  height: 78px;
   display: block;
-  position: absolute;
-  left: 222px;
-  top: 65px;
+  overflow-wrap: anywhere;
+  word-break: keep-all;
 }
 
 .setup_box_2 .runner,
 .setup_box_3 .runner {
   font-size: 22px;
-  line-height: 29px;
+  line-height: 1.25;
   color: rgba(255, 255, 255, 1);
   font-weight: 700;
   font-family: "M PLUS 1", sans-serif;
-  width: 572px;
-  height: 58px;
   display: block;
-  position: absolute;
-  left: 222px;
-  top: 145px;
+  margin-top: 8px;
 }
 
 .setup_box_2 .next_time_box,
@@ -156,7 +168,7 @@
   font-size: 24px;
   line-height: 35px;
   text-shadow: 2px 2px 0 #fff, -2px -2px 0 #fff, -2px 2px 0 #fff,
-    2px -2px 0 #fff, 0px 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
+    2px -2px 0 #fff, 0 2px 0 #fff, 0-2px 0 #fff, -2px 0 0 #fff, 2px 0 0 #fff;
 }
 
 .setup_box_2 .next_time span,
@@ -165,7 +177,7 @@
   font-size: 38px;
   line-height: 55px;
   text-shadow: 3px 3px 0 #fff, -3px -3px 0 #fff, -3px 3px 0 #fff,
-    3px -3px 0 #fff, 0px 3px 0 #fff, 0-3px 0 #fff, -3px 0 0 #fff, 3px 0 0 #fff;
+    3px -3px 0 #fff, 0 3px 0 #fff, 0-3px 0 #fff, -3px 0 0 #fff, 3px 0 0 #fff;
 }
 
 .footer {
@@ -217,6 +229,22 @@
   height: 65px;
   position: absolute;
   left: -20px;
+  animation: roll 20s linear infinite;
+}
+
+
+@keyframes roll {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  50% {
+    transform: rotate(180deg)
+  }
+
+  100% {
+    transform: rotate(360deg)
+  }
 }
 
 .x_icon {
@@ -260,8 +288,8 @@
   position: fixed;
   width: 1920px;
   height: 125px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   transition: 1s;
   background: rgba(220, 166, 0, 1);
   border-bottom: 16px solid rgba(25, 25, 25, 1);
