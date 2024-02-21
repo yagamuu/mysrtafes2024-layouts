@@ -6,6 +6,7 @@ import TheFooter from './TheFooter.vue';
 interface Props {
   clipPath?: string,
   backgroundUrl?: string,
+  disableBackground?: boolean,
 }
 
 const props = defineProps<Props>();
@@ -17,7 +18,7 @@ const style = computed(() => {
 
   const url = props.backgroundUrl ? props.backgroundUrl : layoutBgUrl.value;
 
-  const backgroundImage = `url(${url})`;
+  const backgroundImage = props.disableBackground ? `` : `url(${url})`;
 
   return {
     clipPath: clip,
