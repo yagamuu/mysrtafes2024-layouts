@@ -8,9 +8,9 @@ import InfoBox from '../components/InfoBox.vue';
 import TimerAndEstimate from '../components/TimerAndEstimate.vue';
 
 const gamePosition = (): Box[] => {
-  const x = 24;
+  const x = 0;
   const y = 265;
-  const width = 1872;
+  const width = 1920;
   const height = 546;
   return [[x, x + width, y, y + height]];
 };
