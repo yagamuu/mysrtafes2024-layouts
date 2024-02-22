@@ -32,7 +32,7 @@ setInterval(() => {
  */
 const titleClass = ref('');
 const titleDom = ref<HTMLDivElement | null>(null);
-const changedTitleClass = ref<Boolean>(false);
+const changedTitleClass = ref<boolean>(false);
 
 onMounted(() => {
   const observer = new ResizeObserver((entries) => {

@@ -17,7 +17,6 @@ const gamePosition = (): Box[] => {
 
 const clipPath = computed(() => calculateClipPath(gamePosition()));
 
-
 // Set the title of this page.
 useHead({ title: 'SingleSD' });
 </script>

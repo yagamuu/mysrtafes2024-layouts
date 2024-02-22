@@ -3,7 +3,7 @@
 import { computed } from 'vue';
 import { useRunData, useTimer, useCustomData } from '@mysrtafes2024-layouts/composable';
 
-const { estimate, estimateS } = useRunData();
+const { estimate } = useRunData();
 const { isChallenge, challengeTime } = useCustomData();
 
 const { time, runState, timer } = useTimer();
