@@ -12,7 +12,7 @@ export function useCustomData() {
   const challengeTime = computed(() => {
     const milliseconds = timer?.data?.milliseconds ?? 0;
     const timeSeconds = estimateS.value - Math.floor(milliseconds / 1000);
-    return util.formatSeconds(timeSeconds);
+    return util.formatSeconds(timeSeconds > 0 ? timeSeconds : 0);
   });
 
   return {

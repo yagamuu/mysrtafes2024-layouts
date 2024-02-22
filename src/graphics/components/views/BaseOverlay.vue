@@ -18,7 +18,7 @@ const style = computed(() => {
 
   const url = props.backgroundUrl ? props.backgroundUrl : layoutBgUrl.value;
 
-  const backgroundImage = props.disableBackground ? `` : `url(${url})`;
+  const backgroundImage = props.disableBackground ? '' : `url(${url})`;
 
   return {
     clipPath: clip,
